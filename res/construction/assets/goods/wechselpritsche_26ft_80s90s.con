@@ -1,0 +1,397 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("Wechselpritsche 26ft 1980/1990 "),			
+		description = _("desc_mw_wechselpritsche_26ft_80s90s")
+	},
+	availability = {
+					yearFrom = 1980,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223220212,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "position",
+			name = _("name_position"),
+			uiType = "BUTTON",
+			values = { _("Standard"), _(" +15cm "), _(" +30cm "), _(" +90cm ") }
+		},
+		{
+			key = "pritscheModern",
+			name = _("Typ"),
+			uiType = "COMBOBOX",
+			values = { 
+			_("Audi"),
+			_("Audi 2"), 
+			_("Bahntrans"), 
+			_("Bauhaus"), 
+			_("Bertschi"), 
+			_("Bertschi 2"), 
+			_("Bertschi 3"), 
+			_("Neutral Weiss"), 
+			_("Neutral Rot"), 
+			_("Neutral Blau"), 
+			_("Neutral Grau"), 
+			_("Cargex"), 
+			_("Danzas"), 
+			_("Danzas 2"), 
+			_("Danzas 3"), 
+			_("DB Kraft"), 
+			_("Dreier"), 
+			_("Dreier 2"), 
+			_("DSB Gods"), 
+			_("EAT Spedition"), 
+			_("Eberspacher"), 
+			_("Fenthols"), 
+			_("Fercam"), 
+			_("Foery"), 
+			_("Frey"), 
+			_("Giezendanner"), 
+			_("Giezendanner 2"), 
+			_("Hangartner"), 
+			_("Hangartner 2"), 
+			_("Hangertner 3"), 
+			_("Jeschke"), 
+			_("Kieserling"), 
+			_("Kunze"),  
+			_("Lauritzen"), 
+			_("Leimgruber"), 
+			_("LKW Walter"), 
+			_("Malenstein"), 
+			_("OEBB Audi"), 
+			_("OEBB Haus"), 
+			_("Panalpina"), 
+			_("Planzer"), 
+			_("Planzer 2"), 
+			_("Rhenus"), 
+			_("Rosch"), 
+			_("SAE"), 
+			_("Schenker"), 
+			_("Senn"), 
+			_("Skandinavisk"), 
+			_("Skandinavisk 2"), 
+			_("Skandi Rot"), 
+			_("Vos Logistics"), 
+			_("Weichelt"), 
+			_("Winner"), 
+			_("Wohlfahrt"), 
+			},
+		},
+		{
+			 key = "cross_slope",
+			 name = _("desc_longitudinal_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		{
+			 key = "longitudinal_slope",
+			 name = _("desc_cross_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+		if params.position == 1 then
+			height = 0.15
+		elseif params.position == 2 then
+			height = 0.30
+		elseif params.position == 3 then
+			height = 0.90
+		end
+		
+	local cross_slope = (-10 + params.cross_slope) * 2
+    local longitudinal_slope = (-10 + params.longitudinal_slope) * 2
+	
+	
+		if params.pritscheModern == 0 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_audi.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 1 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_audi2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 2 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_bahntrans.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 3 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_bauhaus.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 4 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_bertschi.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 5 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_bertschi2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 6 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_bertschi3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 7 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_blank1.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 8 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_blank2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 9 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_blank3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 10 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_blank4.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 11 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_cargex.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 12 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_danzas.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 13 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_danzas2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 14 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_danzas3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 15 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_dbKraft.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 16 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_dreier.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 17 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_dreier2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 18 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_dsbGods.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 19 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_eat.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 20 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_eberspacher.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 21 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_fenthols.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 22 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_fercam.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 23 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_foery.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 24 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_frey.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 25 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_giezendanner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 26 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_giezendanner2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 27 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_hangartner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 28 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_hangartner2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 29 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_hangartner3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 30 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_jeschke.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 31 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_kieserling.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 32 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_kunze.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 33 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_lauritzen.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 34 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_leimgruber.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 35 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_lkwWalter.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 36 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_malenstein.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 37 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_oebbAudi.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 38 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_oebbHaus.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 39 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_panalpina.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 40 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_planzerBlau.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 41 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_planzerRot.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 42 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_rhenus.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 43 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_rosch.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 44 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_sae.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 45 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_schenker.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 46 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_senn.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 47 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_skandinavisk.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 48 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_skandinavisk2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 49 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_skandiRot.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 50 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_vos.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 51 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_weichelt.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 52 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_winner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritscheModern == 53 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt_wohlfahrt.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

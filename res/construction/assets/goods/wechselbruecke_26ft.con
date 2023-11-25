@@ -1,0 +1,150 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("Wechselbrücke 24ft/ 26ft HC "),			
+		description = _("desc_mw_wechselbruecke_26ft")
+	},
+	availability = {
+					yearFrom = 2000,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223220212,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "position",
+			name = _("name_position"),
+			uiType = "BUTTON",
+			values = { _("Standard"), _(" +15cm "), _(" +30cm "), _(" +90cm ") }
+		},
+		{
+			key = "bruecke26ft",
+			name = _("Typ"),
+			uiType = "COMBOBOX",
+			values = { 
+			_("Bursped"),
+			_("Cargoline"),
+			_("Dachser"), 
+			_("DHL"), 
+			_("DHL 2"), 
+			_("DPD"),  
+			_("Dreier"), 
+			_("GLS"),
+			_("Hellmann"),
+			_("IDS"),
+			_("DB Schenker"),
+			_("Wetron"),
+			_("Wetron 2"),
+			},
+		},
+		{
+			 key = "cross_slope",
+			 name = _("desc_longitudinal_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		{
+			 key = "longitudinal_slope",
+			 name = _("desc_cross_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+		if params.position == 1 then
+			height = 0.15
+		elseif params.position == 2 then
+			height = 0.30
+		elseif params.position == 3 then
+			height = 0.90
+		end
+		
+	local cross_slope = (-10 + params.cross_slope) * 2
+    local longitudinal_slope = (-10 + params.longitudinal_slope) * 2
+	
+		if params.bruecke26ft == 0 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_bursped.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 1 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_cargoline.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 2 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dachser.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 3 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dhl.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 4 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dhl2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 5 then
+					result.models[#result.models+1] =
+					{ id ="asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dpd.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 6 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dreier.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 7 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_gls.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 8 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_hellmann.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 9 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_ids.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.bruecke26ft == 10 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_schenker.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 11 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_26ft_hc/wechselbruecke_26ft_hc_wetron.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.bruecke26ft == 12 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/wechselbruecke_26ft_hc/wechselbruecke_26ft_hc_wetron2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

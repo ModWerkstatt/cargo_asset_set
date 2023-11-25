@@ -1,0 +1,272 @@
+local constructionutil = require "constructionutil"
+
+math.randomseed( os.time() )
+function data()
+
+
+local container = {
+	{
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ambrogio.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_cai.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_cai2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_cldn.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_dhl.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_dhl2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_dsv.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_dsv2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ecs.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ecs2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ecs3.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ekol.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ekol2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ekol3.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_eucon.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ferrymasters.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ferrymasters2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_ferrymasters3.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_gartner.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_geest.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_geex.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_gts.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_gts2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_gts3.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_gts4.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_gts5.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_hessers.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_hhbode.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_jan_de_rijk.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_move.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_msc.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_norfolkline.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_norfolkline2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_nothegger.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_richard_kempers.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_sarp.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_sarp2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_transfennica.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_transfennica2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_triton.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_triton2.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_tschibo.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_unit45.mdl",
+	"asset/container_mw/container_45ft_hc/container_45ft_hc_westerman.mdl",
+	}
+}	
+local nameCont = {
+			"Random", 
+			"Ambrogio", 
+			"CAI",
+			"CAI 2",
+			"CldN", 
+			"DHL", 
+			"DHL 2",
+			"DSV",
+			"DSV 2", 
+			"ECS", 
+			"ECS 2",
+			"ECS 3",
+			"Ekol", 
+			"Ekol 2", 
+			"Ekol 3", 
+			"Eucon", 
+			"P&O Ferrymasters", 
+			"P&O Ferrymasters 2", 
+			"P&O Ferrymasters 3", 
+			"Gartner", 
+			"Geest", 
+			"Ge-ex", 
+			"GTS", 
+			"GTS 2", 
+			"GTS 3", 
+			"GTS 4", 
+			"GTS 5",  
+			"H.essers", 
+			"HH Bode", 
+			"Jan De Rijk", 
+			"Move", 
+			"MSC", 
+			"Norfolkline", 
+			"Norfolkline 2", 
+			"Nothegger", 
+			"Richard Kempers", 
+			"Sarp Intermodal", 
+			"Sarp Intermodal 2", 
+			"Transfennica", 
+			"Transfennica 2", 
+			"Triton", 
+			"Triton 2",
+			"Tschibo",  
+			"UNIT45.com", 
+			"Westerman Logistics", 
+}
+
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("Container 45ft HC"),			
+		description = _("desc_mw_45ft_hc")
+	},
+	availability = {
+					yearFrom = 2000,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223221001,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "name",
+			name = _("name_brand"),
+			uiType = "COMBOBOX",
+			values = nameCont
+		},
+		{
+			key = "position",
+			name = _("name_position"),
+			uiType = "BUTTON",
+			values = { "Standard", "+30 cm", "+90 cm" }
+		},
+		{
+			key = "hinter",
+			name = _("name_hintereinander"),
+			uiType = "SLIDER",
+			values = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" }
+		},
+		{
+			key = "neben",
+			name = _("name_nebeneinander"),
+			uiType = "SLIDER",
+			values = { "1", "2", "3", "4", "5" }
+		},
+		{
+			key = "abstand",
+			name = _("name_abstand"),
+			uiType = "SLIDER",
+			values = { "0", "0.2", "0.5", "1", "1.5" }
+		},
+		{
+			key = "stapel",
+			name = _("name_stapel"),
+			uiType = "SLIDER",
+			values = { _("x6"), _("x5"), _("x4"),  _("x3"), _("x2"), _("Std"), _("x2"), _("x3"), _("x4"),  _("x5"), _("x6") },
+			defaultIndex = 5,
+		},
+		-- {
+			-- key = "pouj",
+			-- name = _("name_pouj"),
+			-- uiType = "CHECKBOX",
+			-- values = {"0", "1", },
+		-- },		
+		{
+			key = "terrain",
+			name = _("name_terrain"),
+			uiType = "CHECKBOX",
+			values = {"0", "1", },
+		},		
+		
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local contID
+		local size = 0
+		local laenge = 13.716 + 0.3
+		local breite = 2.4384
+		local hoehe = 2.89
+		local pos = 0
+		local minstapel = 1			-- Mindestanzahl Container bei zufälliger Stapelhöhe
+		local pouj = 1             	-- params.pouj 
+		
+		-- Stapelhöhe 
+		local stapelhoehe = 1
+			if params.stapel ~= 5 then
+				if params.stapel < 5 then
+					stapelhoehe = (-6 + params.stapel)*-1
+				else
+					stapelhoehe =  params.stapel-4
+				end	
+			end
+		local staho = stapelhoehe
+		
+		
+		
+		-- Abstand zwischen den Reihen in Containerbreite
+		if params.abstand == 0 then
+			breite = breite
+		elseif params.abstand == 1 then
+			breite = breite+(breite*0.2)
+		elseif params.abstand == 2 then
+			breite = breite+(breite*0.5)
+		elseif params.abstand == 3 then
+			breite = breite+(breite*1.0)
+		elseif params.abstand == 4 then
+			breite = breite+(breite*1.5)
+		end
+
+		-- Starthoehe
+		if params.position == 1 then
+			pos = 0.3
+		elseif params.position == 2 then
+			pos = 0.9
+		end
+		
+		-- Stapel erstellen
+		for i = 1 ,(params.hinter+1) do
+		 local x = ( i * laenge) - laenge
+			for i = 1 , (params.neben+1) do
+				local y = (i*breite)-breite
+				if params.stapel < 5 then
+				if stapelhoehe < minstapel   then minstapel = 1 end
+				staho = math.random(minstapel,stapelhoehe)				-- zufällige höhe	math.random(1,params.stapel+1)
+				end
+					for i = 1, staho do										-- for i = 1, (params.stapel+1) do
+						local z = ((i*hoehe)-hoehe)+pos
+							if params.name > 0 then 
+								if pouj == 1 then
+									contID = container[size+1][params.name]
+									result.models[#result.models+1] = { id = contID, transf = constructionutil.rotateTransf(params,{ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, y, z, 1 }),}
+								else
+									contID = container[size+1][params.name]
+									result.models[#result.models+1] = { id = contID, transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, y, z, 1 } }
+								end
+							else
+								if pouj == 1 then
+									contID = container[size+1][math.random(1,#nameCont-1)]
+									result.models[#result.models+1] = { id = contID, transf = constructionutil.rotateTransf(params,{ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, y, z, 1 }),}
+								else
+									contID = container[size+1][math.random(1,#nameCont-1)]
+									result.models[#result.models+1] = { id = contID, transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, x, y, z, 1 } }
+								end
+							end	
+					end
+			end
+		end
+		
+		-- Terrain Angleichung
+		local terrainFaces = { }
+		if params.terrain == 1 then
+		terrainFaces[#terrainFaces + 1] = 
+			{
+				{(laenge*(params.hinter+1))-(laenge/2)+1, (breite*(params.neben+1))-(breite/2)+1, 0},
+				{(laenge*(params.hinter+1))-(laenge/2)+1, (-(breite/2))-1, 0},
+				{(-(laenge/2))-1, (-(breite/2))-1, 0},
+				{(-(laenge/2))-1, (breite*(params.neben+1))-(breite/2)+1, 0},
+			}	
+		end
+		
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		if (params.neben > 1 or params.hinter >1) then 
+		result.groundFaces = { }
+		result.groundFaces[#result.groundFaces + 1] = { face = { {0.01, -0.01}, { 0.01, 0.01}, {-0.01, 0.01}, {-0.01, -0.01} }, modes = { { type = "FILL", key = "industry_floor.lua" } } }
+		else
+		
+		end
+		return result
+	end
+}
+end

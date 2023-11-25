@@ -1,7 +1,7 @@
 function data()
 return {
 info = {
-  minorVersion = 55,
+  minorVersion = 6,
   severityAdd = "NONE",
   severityRemove = "CRITICAL",
   name = _("name_mod"),
@@ -30,6 +30,13 @@ info = {
             text = "Model, Paint",
 			steamProfile = "76561198344007439",
             tfnetId = 34006,
+        },{
+		},{
+            name = "br-147",
+            role = "CREATOR",
+            text = "Model, Paint",
+			steamProfile = "76561198344007439",
+            tfnetId = 29512,
         },{
             name = "KoA",
             role = "CO-CREATOR",

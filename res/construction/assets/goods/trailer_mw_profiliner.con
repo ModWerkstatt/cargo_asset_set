@@ -1,0 +1,237 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("Trailer Profiliner"),			
+		description = _("desc_mw_profiliner")
+	},
+	availability = {
+					yearFrom = 2000,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223220212,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "position",
+			name = _("name_position"),
+			uiType = "BUTTON",
+			values = { _("Standard"), _(" +15cm "), _(" +30cm "), _(" +90cm ") }
+		},
+		{
+			key = "trailerProfi",
+			name = _("Typ"),
+			uiType = "COMBOBOX",
+			values = { 
+			_("Ansorge"),
+			_("Arcese"),
+			_("CldN"),
+			_("DSV"),
+			_("Ewals Cargo"),  
+			_("Fercam"), 
+			_("P&O Ferrymasters"), 
+			_("Fixemer"),  
+			_("Gruber Spedition"),  
+			_("Hangartner"), 
+			_("Heisterkamp"),
+			_("Heisterkamp 2"),
+			_("HH Bode"),
+			_("Iemoli Transporti"),
+			_("IKG"),
+			_("Jost Group"),
+			_("Lauritzen"),
+			_("Nothegger"),
+			_("Paneuropa"),			
+			_("SAE"),
+			_("DB Schenker"),
+			_("Transco"),
+			_("Transped"),
+			_("LKW Walter"),
+			_("Wenzel Logistik"),
+			_("Wetron"),
+			_("Winner Spedition"),
+			},
+		},
+		{
+			 key = "cross_slope",
+			 name = _("desc_longitudinal_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		{
+			 key = "longitudinal_slope",
+			 name = _("desc_cross_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		
+		
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+		if params.position == 1 then
+			height = 0.15
+		elseif params.position == 2 then
+			height = 0.30
+		elseif params.position == 3 then
+			height = 0.90
+		end
+		
+	local cross_slope = (-10 + params.cross_slope) * 2
+    local longitudinal_slope = (-10 + params.longitudinal_slope) * 2
+	
+	
+		if params.trailerProfi== 0 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_ansorge.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 1 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_arcese.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 2 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_cldn.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 3 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_dsv.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 4 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_ewals.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 5 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_fercam.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 6 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_ferrymasters.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 7 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_fixemer.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 8 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_gruber.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 9 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_hangartner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 10 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 11 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 12 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_hhbode.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 13 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_iemoli.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 14 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_ikg.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 15 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_jost.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 16 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 17 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_nothegger.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 18 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_paneuropa.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 19 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_sae.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 20 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_schenker.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 21 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_transco.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 22 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_transped.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 23 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_walter.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 24 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_wenzel.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 25 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_wetron.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.trailerProfi== 26 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/krone_profiliner/krone_trailer_winner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

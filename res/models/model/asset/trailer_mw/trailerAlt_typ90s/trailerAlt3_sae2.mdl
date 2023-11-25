@@ -1,0 +1,190 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 7.0451993942261, 1.2907602787018, 4.0113725662231, },
+		bbMin = { -5.406777381897, -1.2907602787018, -0.0074317455291748, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.2259883880615, 1.2907602787018, 2.0094022750854, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse1_lod0.msh",
+						name = "bandion_trailerSehrAlt_achse1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.0222904682159, -7.2951115726028e-07, 0.54485660791397, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_body3_lod0.msh",
+						name = "bandion_trailerSehrAlt_body2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt2_unterBau3_lod0.msh",
+						name = "bandion_trailerSehrAlt2_unterBau2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_plane3_lod0.msh",
+						name = "bandion_trailerSehrAlt_planeSpitz",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0099999997764826, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse2_lod0.msh",
+						name = "bandion_trailerSehrAlt_achse2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.4383134841919, -5.600822987617e-07, 0.54485666751862, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_stutze3_lod0.msh",
+						name = "bandion_trailerSehrAlt_stutzfuss2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_hinten3_lod0.msh",
+						name = "bandion_trailerSehrAlt_hinten2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse2_lod0.msh",
+						name = "bandion_trailerSehrAlt_achse2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2290830612183, -6.0216461861273e-07, 0.54485660791397, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt3_TIR3_lod0.msh",
+						name = "bandion_trailerSehrAlt2_TIR",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 146.20487976074,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse1_lod1.msh",
+						name = "bandion_trailerSehrAlt_achse1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.0222904682159, -7.2951115726028e-07, 0.54485660791397, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_body3_lod1.msh",
+						name = "bandion_trailerSehrAlt_body2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt2_unterBau3_lod1.msh",
+						name = "bandion_trailerSehrAlt2_unterBau2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_plane3_lod1.msh",
+						name = "bandion_trailerSehrAlt_planeSpitz",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0099999997764826, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse2_lod1.msh",
+						name = "bandion_trailerSehrAlt_achse2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.4383134841919, -5.600822987617e-07, 0.54485666751862, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_stutze3_lod1.msh",
+						name = "bandion_trailerSehrAlt_stutzfuss2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_hinten3_lod1.msh",
+						name = "bandion_trailerSehrAlt_hinten2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse2_lod1.msh",
+						name = "bandion_trailerSehrAlt_achse2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.2290830612183, -6.0216461861273e-07, 0.54485660791397, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt2_TIR_lod1.msh",
+						name = "bandion_trailerSehrAlt2_TIR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 146.20487976074,
+			visibleTo = 438.61465454102,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse1_lod2.msh",
+						name = "bandion_trailerSehrAlt_achse1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9729089736938, -1.1531210475368e-06, 0.54485660791397, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_body_lod2.msh",
+						name = "bandion_trailerSehrAlt_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_planeSpitz_lod1.msh",
+						name = "bandion_trailerSehrAlt_planeSpitz",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_achse2_lod2.msh",
+						name = "bandion_trailerSehrAlt_achse2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.6295256614685, -9.5996801974252e-07, 0.54485660791397, 1, },
+					},
+					{
+						materials = { "asset/trailer_mw/trailerAlt/90s/TrailerAlt_sae2.mtl", },
+						mesh = "asset/trailer_mw/trailerAlt/bandion_trailerSehrAlt_rucklichter_lod2.msh",
+						name = "bandion_trailerSehrAlt_rucklichter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 438.61465454102,
+			visibleTo = 1315.8439941406,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

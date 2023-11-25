@@ -1,0 +1,246 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("Wechselpritsche 45ft/ 45ft HC "),			
+		description = _("desc_mw_wechselpritsche_45ft")
+	},
+	availability = {
+					yearFrom = 2000,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223220212,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "position",
+			name = _("name_position"),
+			uiType = "BUTTON",
+			values = { _("Standard"), _(" +15cm "), _(" +30cm "), _(" +90cm ") }
+		},
+		{
+			key = "pritsche45ft",
+			name = _("Typ"),
+			uiType = "COMBOBOX",
+			values = { 
+			_("Alberti"),
+			_("BAS"),
+			_("Ewals Cargo"), 
+			_("Fercam"), 
+			_("Move"), 
+			_("Move 2"),  
+			_("Move 3"), 
+			_("Nothegger"),
+			_("LKW Walter"),
+			_("Ambrogio"),
+			_("Ambrogio 2"),
+			_("Corssrail"),
+			_("DFDS"),
+			_("Ekol"),
+			_("Emons"),
+			_("P&O Ferrymasters"),
+			_("GTS"),
+			_("GTS 2"),
+			_("Magetra"),
+			_("Magetra 2"),
+			_("Norfolkline"),
+			_("Norfolkline 2"),
+			_("Nothegger"),
+			_("Nothegger 2"),
+			_("Spedirail"),
+			_("Spedirail 2"),
+			_("T.T.S."),
+			_("T.T.S. 2"),
+			_("Wetron"),
+			},
+		},
+		{
+			 key = "cross_slope",
+			 name = _("desc_longitudinal_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		{
+			 key = "longitudinal_slope",
+			 name = _("desc_cross_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+		if params.position == 1 then
+			height = 0.15
+		elseif params.position == 2 then
+			height = 0.30
+		elseif params.position == 3 then
+			height = 0.90
+		end
+		
+	local cross_slope = (-10 + params.cross_slope) * 2
+    local longitudinal_slope = (-10 + params.longitudinal_slope) * 2
+	
+		if params.pritsche45ft == 0 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_alberti.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 1 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_bas.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 2 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_ewals.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 3 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_fercam.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 4 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_move.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 5 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_move2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 6 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_move3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 7 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_nothegger.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 8 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft/pritsche_45ft_walter.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 9 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ambrogio.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 10 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ambrogio2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 11 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_crossrail.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 12 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_dfds.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 13 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ekol.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 14 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_emons.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 15 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ferrymasters.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 16 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_gts.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 17 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_gts2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 18 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_magetra.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 19 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_magetra2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 20 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_norfolkline.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 21 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_norfolkline2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 22 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_nothegger.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 23 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_nothegger2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 24 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_spedirail.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 25 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_spedirail2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 26 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_tts.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 27 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_tts2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		if params.pritsche45ft == 28 then
+					result.models[#result.models+1] =
+					{ id = "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_wetron.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end
+		
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

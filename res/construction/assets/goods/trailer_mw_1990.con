@@ -1,0 +1,296 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("Trailer MW 1990"),			
+		description = _("desc_mw_1990")
+	},
+	availability = {
+					yearFrom = 1982,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223220212,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "position",
+			name = _("name_position"),
+			uiType = "BUTTON",
+			values = { _("Standard"), _(" +15cm "), _(" +30cm "), _(" +90cm ") }
+		},
+		{
+			key = "trailer1990",
+			name = _("Typ"),
+			uiType = "COMBOBOX",
+			values = { 
+			_("Berger"),
+			_("Depaire"),
+			_("DFDS"),
+			_("Kieserling"),
+			_("LKW Augustin"),
+			_("Scansped"),
+			_("Stadler"),
+			_("ASG"),
+			_("Danzas"),
+			_("Danzas 2"),
+			_("Danzas 3"),
+			_("Depaire 2"),
+			_("ERT"),
+			_("Europa Transporte"),
+			_("Eurotrans"),
+			_("Fercam"),
+			_("Gruber Spedition"),
+			_("Gruber Spedition 2"),
+			_("Gruber Spedition 3"),
+			_("Hangartner"),
+			_("LKW Walter"),
+			_("Merikiito"),
+			_("Nordisk"),
+			_("Oy"),
+			_("Polar Express"),
+			_("Rentco"),
+			_("Rosch"),
+			_("SAE"),
+			_("SAE 2"),
+			_("Satatrans"),
+			_("Scan Cargo"),
+			_("Schenker"),
+			_("Schenker Schweden"),
+			_("Trailerlloyd"),
+			_("Wetron"),
+			_("Willi Betz"),
+			_("Winner"),
+			},
+		},
+		{
+			 key = "cross_slope",
+			 name = _("desc_longitudinal_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		{
+			 key = "longitudinal_slope",
+			 name = _("desc_cross_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		
+		
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+		if params.position == 1 then
+			height = 0.15
+		elseif params.position == 2 then
+			height = 0.30
+		elseif params.position == 3 then
+			height = 0.90
+		end
+		
+	local cross_slope = (-10 + params.cross_slope) * 2
+    local longitudinal_slope = (-10 + params.longitudinal_slope) * 2
+	
+		if params.trailer1990== 0 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_berger.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 1 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_depaire.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 2 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_dfds.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 3 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_kieserling.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 4 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_lkwAugustin.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 5 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_scansped.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 6 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt2_stadler.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 7 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_asg2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 8 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_danzas.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 9 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_danzas2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 10 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_danzas3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 11 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_depaire.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 12 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_ert.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 13 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_europa.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 14 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_europatrans.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 15 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_fercam.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 16 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_gruber.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end		
+		if params.trailer1990== 17 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_gruber2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end		
+		if params.trailer1990== 18 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_gruber3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 19 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_hangartner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 20 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_lkwWalter.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 21 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_merikiito.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 22 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_nordisk.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 23 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_oy.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 24 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_polarExpress.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 25 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_rentco.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 26 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_rosch.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 27 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_sae.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 28 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_sae2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 29 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_satatrans.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 30 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_scancargo.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 31 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_schenker.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		if params.trailer1990== 32 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_schenkerSweden.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end		
+		if params.trailer1990== 33 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_trailerlloyd.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end		
+		if params.trailer1990== 34 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_wetron.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end		
+		if params.trailer1990== 35 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_williBetz.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end		
+		if params.trailer1990== 36 then
+					result.models[#result.models+1] =
+					{ id = "asset/trailer_mw/trailerAlt_typ90s/trailerAlt3_winner.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, height)) }
+		end	
+		
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

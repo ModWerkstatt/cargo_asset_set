@@ -1,0 +1,91 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			6.1, 1.21, 2.9, 
+		},
+		bbMin = {
+			-6.1, -1.21, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						materials = {"asset/container_mw/container_45ft_hc/container_45ft_hc_jan_de_rijk.mtl",},
+						mesh = "asset/container_mw/container_45ft_hc/container_45ft_hc_neu_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						materials = {"asset/container_mw/container_45ft_hc/container_45ft_hc_jan_de_rijk.mtl",},
+						mesh = "asset/container_mw/container_45ft_hc/container_45ft_hc_neu_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 350,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						materials = {"asset/container_mw/container_45ft_hc/container_45ft_hc_jan_de_rijk.mtl",},
+						mesh = "asset/container_mw/container_45ft_hc/container_45ft_hc_neu_lod2.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 350,
+			visibleTo = 1500,
+			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

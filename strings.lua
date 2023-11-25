@@ -3,7 +3,7 @@ return {
 	de = {
 		["name_mod"] = "Cargo Asset Set",
 		["desc_mod"] = (
-			"[h2][b] Cargo Asset Set Version 1.55 [/b][/h2]\n" ..
+			"[h2][b] Cargo Asset Set Version 1.6 [/b][/h2]\n" ..
 				" \n" ..
 				"Mit diesem Mod wird dem Spiel verschiedene Assets in Form von Containern, Bau- und Konstruktionselemente, sowie den Krone Sattelauflieger in diversen Varianten hinzugefügt.\n" ..
 				"\n" ..
@@ -77,6 +77,36 @@ return {
 		["name_terrain"] = "Terrain Anpassung",
 		["desc_cross_slope"] = "Querneigung",
 		["desc_longitudinal_slope"] = "Laengsneigung",
+				
+		--- Container Neu ---
+		["desc_mw_20ft"] = "20 Fuss Container",
+		["desc_mw_30ft"] = "30 Fuss Container",
+		["desc_mw_40ft"] = "40 Fuss Container",
+		
+		["desc_mw_20ft_hc"] = "20 Fuss High Cube Container",
+		["desc_mw_40ft_hc"] = "40 Fuss High Cube Container",
+		["desc_mw_45ft_hc"] = "45 Fuss High Cube Container",
+		
+		["desc_mw_silo_30ft"] = "30 Fuss Silotainer",
+		
+		["desc_mw_tank_20ft"] = "20 Fuss Tanktainer",
+		["desc_mw_tank_26ft"] = "26 Fuss Tanktainer",
+		["desc_mw_tank_30ft"] = "30 Fuss Tanktainer",
+		["desc_mw_tank_40ft"] = "40 Fuss Tanktainer",
+		
+		["desc_mw_wechselbruecke_26ft"] = "Wechselbrücke 24 Fuss",
+		["desc_mw_wechselpritsche_26ft"] = "Wechselpritsche 26 Fuss und 26 Fuss High Cube",
+		["desc_mw_wechselpritsche_45ft"] = "Wechselpritsche 45 Fuss und 45 Fuss High Cube",
+		["desc_mw_wechselpritsche_26ft_60s70s"] = "Wechselpritsche 26 Fuss 1960 und 1970",
+		["desc_mw_wechselpritsche_26ft_80s90s"] = "Wechselpritsche 26 Fuss 1980 und 1900",
+			
+		["desc_mw_1980"] = "Trailer 1980",
+		["desc_mw_1990"] = "Trailer 1990",
+			
+		["desc_mw_coolliner"] = "Trailer Coolliner",
+		["desc_mw_megaliner"] = "Trailer Megaliner",
+		["desc_mw_profiliner"] = "Trailer Profiliner",		
+		
 		},
 	en = {
 		["name_mod"] = "Cargo Asset Set",
@@ -155,6 +185,37 @@ return {
 		["name_terrain"] = "Terrain adjustment",
 		["desc_cross_slope"] = "Cross slope",
 		["desc_longitudinal_slope"] = "Longitudinal slope",
+						
+		--- Container Neu ---
+		["desc_mw_20ft"] = "20 feet Container",
+		["desc_mw_30ft"] = "30 feet Container",
+		["desc_mw_40ft"] = "40 feet Container",
+		
+		["desc_mw_20ft_hc"] = "20 feet High Cube Container",
+		["desc_mw_40ft_hc"] = "40 feet High Cube Container",
+		["desc_mw_45ft_hc"] = "45 feet High Cube Container",
+		
+		["desc_mw_silo_30ft"] = "30 feet Silotainer",
+		
+		["desc_mw_tank_20ft"] = "20 feet Tanktainer",
+		["desc_mw_tank_26ft"] = "26 feet Tanktainer",
+		["desc_mw_tank_30ft"] = "30 feet Tanktainer",
+		["desc_mw_tank_40ft"] = "40 feet Tanktainer",
+		
+		["desc_mw_wechselbruecke_26ft"] = "Swap bridge 24 feet",
+		["desc_mw_wechselpritsche_26ft"] = "Swap body 26 feet und 26 feet High Cube",
+		["desc_mw_wechselpritsche_45ft"] = "Swap body 45 feet und 45 feet High Cube",
+		["desc_mw_wechselpritsche_26ft_60s70s"] = "Swap body 26 feet 1960 und 1970",
+		["desc_mw_wechselpritsche_26ft_80s90s"] = "Swap body 26 feet 1980 und 1900",
+				
+		["desc_mw_1980"] = "Trailer 1980",
+		["desc_mw_1990"] = "Trailer 1990",
+		
+		["desc_mw_coolliner"] = "Trailer Coolliner",
+		["desc_mw_megaliner"] = "Trailer Megaliner",
+		["desc_mw_profiliner"] = "Trailer Profiliner",
+		
+		
 		},
 }
 end
