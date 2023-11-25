@@ -1,0 +1,37 @@
+function data()
+return {
+	children = {
+		{
+			id = "asset/krone_trailer/krone_trailer_lod_1.msh",
+			transf = {
+				1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.15, 1.0, 
+			},
+			type = "MESH",
+		}, 
+		{
+			id = "asset/krone_trailer/krone_trailer_achse_scania_lod_1.msh",
+			transf = {
+				1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -1.37, 0.0, 0.54, 1.0, 
+			},
+			type = "MESH",
+		}, 
+		{
+			id = "asset/krone_trailer/krone_trailer_achse_scania_lod_1.msh",
+			transf = {
+				1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -2.6, 0.0, 0.54, 1.0, 
+			},
+			type = "MESH",
+		}, 
+		{
+			id = "asset/krone_trailer/krone_trailer_achse_scania_lod_1.msh",
+			transf = {
+				1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, -3.83, 0.0, 0.54, 1.0, 
+			},
+			type = "MESH",
+		}, 
+	},
+	matConfigs = {
+		{ 3, 0, 0, 0, }, 
+	},
+}
+end

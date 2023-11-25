@@ -1,0 +1,100 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.0927066802979, 1.2001103162766, 2.5881009101868, },
+		bbMin = { -6.0927066802979, -1.2001103162766, -0.0019961888901889, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.0927066802979, 1.2001103162766, 1.2950485944748, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_lod0.msh",
+						name = "jay_container40_old",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_stangenUS_lod0.msh",
+						name = "jay_container40_old_stangenUS",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_stangeMitte_lod0.msh",
+						name = "jay_container40_old_stangeMitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_stangenFrontUS_lod0.msh",
+						name = "jay_container40_old_stangenFrontUS",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_stangenOben_lod0.msh",
+						name = "jay_container40_old_stangenOben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 116.52819824219,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_lod1.msh",
+						name = "jay_container40_old",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_stangenOben_lod1.msh",
+						name = "jay_container40_old_stangenOben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 116.52819824219,
+			visibleTo = 349.58459472656,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_40ft/containerOld/containerOld_icsu.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_40ft/containerOld/jay_container40_old_lod2_lod2.msh",
+						name = "jay_container40_old_lod2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 349.58459472656,
+			visibleTo = 1548.7537841797,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 48,
+					offset = 296,
+				},
+				position = {
+					count = 48,
+					offset = 344,
+				},
+				tangent = {
+					count = 48,
+					offset = 248,
+				},
+				uv0 = {
+					count = 48,
+					offset = 392,
+				},
+			},
+			materials = {
+				"vehicle/truck/mn_volvo_mn16_blinker.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 48,
+			numComp = 3,
+			offset = 80,
+		},
+		position = {
+			count = 72,
+			numComp = 3,
+			offset = 128,
+		},
+		tangent = {
+			count = 80,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 48,
+			numComp = 2,
+			offset = 200,
+		},
+	},
+}
+end

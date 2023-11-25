@@ -1,0 +1,137 @@
+local vec3 = require "vec3"
+local transf = require "transf"
+
+function data()
+return { 
+	type = "ASSET_DEFAULT",
+	description = {
+		name = _("name_asset4"),			
+		description = _("desc_asset4")
+	},
+	availability = {
+					yearFrom = 1990,
+					yearTo = 0
+	},
+	buildMode = "MULTI",
+	categories = { "goods" },
+	order = 223221011,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "misc",
+			name = _("Version"),
+			uiType = "ICON_BUTTON",
+			values = { 
+			"ui/parameters/concrete_tube.tga", 
+			"ui/parameters/granite_block_1.tga",
+			"ui/parameters/granite_block_2.tga",
+			"ui/parameters/plastic_tube_pack_wooden_slat.tga",
+			"ui/parameters/steel_coil_1.tga", 
+			"ui/parameters/steel_coil_2.tga",
+			"ui/parameters/steel_profile_1_wooden_slat.tga",
+			"ui/parameters/steel_profile_2_wooden_slat.tga",
+			"ui/parameters/steel_profile_3_wooden_slat.tga", 
+			"ui/parameters/steel_tube_long_pack_3.tga",
+			"ui/parameters/steel_tube_long_pack_4.tga",
+			"ui/parameters/steel_tube_long_short_pack_3.tga",
+			"ui/parameters/steel_tube_short_pack_2.tga",
+			},
+		},
+		{
+			 key = "cross_slope",
+			 name = _("desc_longitudinal_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+		{
+			 key = "longitudinal_slope",
+			 name = _("desc_cross_slope"),
+			 uiType = "SLIDER",
+			 values = { _("-10°"), _("-9°"), _("-8°"), _("-7°"), _("-6°"), _("-5°"), _("-4°"), _("-3°"), _("-2°"), _("-1°"), _("0°"), _("1°"), _("2°"), _("3°"), _("4°"), _("5°"), _("6°"), _("7°"), _("8°"), _("9°"), _("10°"), },
+			 defaultIndex = 10,
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+
+		
+	local cross_slope = (-10 + params.cross_slope) * 2
+    local longitudinal_slope = (-10 + params.longitudinal_slope) * 2
+
+		if params.misc == 0 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/concrete_tube.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 1 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/granite_block_1.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 2 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/granite_block_2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 3 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/plastic_tube_pack_wooden_slat.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 4 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_coil_1.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0.988)) }
+		end
+		if params.misc == 5 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_coil_2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0.988)) }
+		end
+		if params.misc == 6 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_profile_1_wooden_slat.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 7 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_profile_2_wooden_slat.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 8 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_profile_3_wooden_slat.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 9 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_tube_long_pack_3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 10 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_tube_long_pack_4.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 11 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_tube_long_short_pack_3.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+		if params.misc == 12 then
+					result.models[#result.models+1] =
+					{ id = "asset/misc/steel_tube_short_pack_2.mdl",
+					transf = transf.scaleRotZYXTransl(vec3.new(1,1,1),transf.degToRad(180.0, cross_slope, longitudinal_slope), vec3.new(0, 0, 0)) }
+		end
+
+	result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

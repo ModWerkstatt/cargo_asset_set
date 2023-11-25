@@ -1,0 +1,102 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			7.05, 1.28, 4.05, 
+		},
+		bbMin = {
+			-6.98, -1.28, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {					
+					{					
+						materials = {"asset/misc/misc_loading_2.mtl", },
+						mesh = "asset/misc/construction/concrete_tube_lod_0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+			
+		}, 
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {					
+					{					
+						materials = {"asset/misc/misc_loading_2.mtl", },
+						mesh = "asset/misc/construction/concrete_tube_lod_1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 300,
+			
+		}, 
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {					
+					{					
+						materials = {"asset/misc/misc_loading_2.mtl", },
+						mesh = "asset/misc/construction/concrete_tube_lod_2.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1500,
+			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1990,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

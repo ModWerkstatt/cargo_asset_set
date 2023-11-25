@@ -1,0 +1,76 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 8748,
+					offset = 422480,
+				},
+				position = {
+					count = 8748,
+					offset = 431228,
+				},
+				tangent = {
+					count = 8748,
+					offset = 413732,
+				},
+				uv0 = {
+					count = 8748,
+					offset = 404984,
+				},
+			},
+			materials = {
+				"vehicle/truck/40_tons/mn_volvo_mn16_fh.mtl", 
+			},
+		}, {
+			indices = {
+				normal = {
+					count = 146592,
+					offset = 733160,
+				},
+				position = {
+					count = 146592,
+					offset = 879752,
+				},
+				tangent = {
+					count = 146592,
+					offset = 586568,
+				},
+				uv0 = {
+					count = 146592,
+					offset = 439976,
+				},
+			},
+			materials = {
+				"vehicle/truck/40_tons/mn_volvo_mn16_rm.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 67620,
+			numComp = 3,
+			offset = 248288,
+		},
+		position = {
+			count = 89076,
+			numComp = 3,
+			offset = 315908,
+		},
+		tangent = {
+			count = 175216,
+			numComp = 4,
+			offset = 73072,
+		},
+		uv0 = {
+			count = 73072,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end

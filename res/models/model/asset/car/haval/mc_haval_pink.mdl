@@ -1,0 +1,112 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.6842999458313, 1.0204296112061, 1.7191698551178, },
+		bbMin = { -1.8926600217819, -1.0204300880432, -0.0062398612499237, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.2884800434113, 1.0204298496246, 0.86270487308502, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/haval_h6/haval_h6_interior.mtl", },
+						mesh = "vehicle/car/haval_h6/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/w1_lod0.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7878642082214, -0.77902096509933, 0.33339843153954, 1, },
+					},
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7878642082214, 0.77902096509933, 0.33339843153954, 1, },
+					},
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/w3_lod0.msh",
+						name = "w3",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.91713505983353, 0, 0.33339861035347, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7878642082214, -0.77902096509933, 0.33339843153954, 1, },
+					},
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7878642082214, 0.77902096509933, 0.33339843153954, 1, },
+					},
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/w3_lod1.msh",
+						name = "w3",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.91713505983353, 0, 0.33339861035347, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/haval/mc_haval_h6_pink.mtl", },
+						mesh = "vehicle/car/haval_h6/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

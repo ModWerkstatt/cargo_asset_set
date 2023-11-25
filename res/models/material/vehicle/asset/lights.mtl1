@@ -1,0 +1,31 @@
+function data()
+return {
+	params = {
+		emissive_scale = {
+			emissiveScale = { 45, 45, 45, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_emissive = {
+			compressionAllowed = true,
+			fileName = "models/vehicle/asset/lights.tga",
+			magFilter = "LINEAR",
+			minFilter = "LINEAR_MIPMAP_LINEAR",
+			mipmapAlphaScale = 0,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		polygon_offset = {
+			factor = -1,
+			units = -1,
+		},
+		two_sided = {
+			twoSided = false,
+		},
+	},
+	type = "EMISSIVE",
+}
+end

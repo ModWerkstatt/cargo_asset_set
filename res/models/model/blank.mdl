@@ -1,0 +1,48 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			0.5, 0.5, 1, 
+		},
+		bbMin = {
+			-0.5, -0.5, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {"blank.mtl", },
+						mesh = "blank.msh",
+						transf = {0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0, 0.5, 0, 0, 0, 0.2, 1,},
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 15,
+			
+		}, 
+	},
+	metadata = {},
+	version = 1,
+	
+}
+end

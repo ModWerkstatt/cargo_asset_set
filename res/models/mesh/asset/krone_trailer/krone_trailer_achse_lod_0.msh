@@ -1,0 +1,64 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, },
+		{ 1, },
+		{ 2, },
+		{ 3, },
+		{ 4, },
+		{ 5, },
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 6768,
+					offset = 13656,
+				},
+				position = {
+					count = 6768,
+					offset = 33960,
+				},
+				tangent = {
+					count = 6768,
+					offset = 20424,
+				},
+				uv0 = {
+					count = 6768,
+					offset = 27192,
+				},
+			},
+			materials = {
+			"asset/krone_trailer/set1/krone_trailer_dhl.mtl",
+			"asset/krone_trailer/set1/krone_trailer_schenker.mtl",
+			"asset/krone_trailer/set1/krone_trailer_walter.mtl", 
+			"asset/krone_trailer/set1/krone_trailer_gw.mtl",
+			"asset/krone_trailer/set1/krone_trailer_enterprise.mtl",
+			"asset/krone_trailer/set1/krone_trailer_ewals.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 2712,
+			numComp = 3,
+			offset = 0,
+		},
+		position = {
+			count = 3504,
+			numComp = 3,
+			offset = 10152,
+		},
+		tangent = {
+			count = 5872,
+			numComp = 4,
+			offset = 2712,
+		},
+		uv0 = {
+			count = 1568,
+			numComp = 2,
+			offset = 8584,
+		},
+	},
+}
+end

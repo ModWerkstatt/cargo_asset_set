@@ -1,0 +1,98 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, 0, 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 216,
+					offset = 1836,
+				},
+				position = {
+					count = 216,
+					offset = 2268,
+				},
+				tangent = {
+					count = 216,
+					offset = 2052,
+				},
+				uv0 = {
+					count = 216,
+					offset = 1620,
+				},
+			},
+			materials = {
+				"vehicle/truck/mn_volvo_mn16_headlight_2.mtl", 
+			},
+		}, {
+			indices = {
+				normal = {
+					count = 168,
+					offset = 2652,
+				},
+				position = {
+					count = 168,
+					offset = 2988,
+				},
+				tangent = {
+					count = 168,
+					offset = 2820,
+				},
+				uv0 = {
+					count = 168,
+					offset = 2484,
+				},
+			},
+			materials = {
+				"vehicle/truck/mn_volvo_mn16_headlight_1.mtl", 
+			},
+		}, {
+			indices = {
+				normal = {
+					count = 96,
+					offset = 3252,
+				},
+				position = {
+					count = 96,
+					offset = 3444,
+				},
+				tangent = {
+					count = 96,
+					offset = 3348,
+				},
+				uv0 = {
+					count = 96,
+					offset = 3156,
+				},
+			},
+			materials = {
+				"vehicle/truck/mn_volvo_mn16_headlight_3.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 252,
+			numComp = 3,
+			offset = 160,
+		},
+		position = {
+			count = 552,
+			numComp = 3,
+			offset = 1068,
+		},
+		tangent = {
+			count = 656,
+			numComp = 4,
+			offset = 412,
+		},
+		uv0 = {
+			count = 160,
+			numComp = 2,
+			offset = 0,
+		},
+	},
+}
+end

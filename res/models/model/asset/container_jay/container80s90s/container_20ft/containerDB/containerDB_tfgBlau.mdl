@@ -1,0 +1,76 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.0492396354675, 1.2001103162766, 2.5881009101868, },
+		bbMin = { -3.0492396354675, -1.2001103162766, -0.0019961888901889, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.0492396354675, 1.2001103162766, 1.2950485944748, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_tfgBlau.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerDB/jay_container_DB_lod0.msh",
+						name = "jay_container_DB",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_tfgBlau.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerDB/jay_container_DB_rillenNew_lod0.msh",
+						name = "jay_container_DB_rillenNew",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 85.19652557373,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_tfgBlau.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCTI/jay_container_old_lod1_lod1.msh",
+						name = "jay_container_old_lod1",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 1.011045217514, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 85.19652557373,
+			visibleTo = 200.58958435059,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_tfgBlau.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCTI/jay_container_old_lod2.msh",
+						name = "jay_container_old",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 1.011045217514, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200.58958435059,
+			visibleTo = 1500.7687988281,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

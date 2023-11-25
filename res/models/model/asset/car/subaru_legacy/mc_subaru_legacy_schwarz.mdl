@@ -1,0 +1,112 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.3314399719238, 0.99346458911896, 1.488499879837, },
+		bbMin = { -2.3375601768494, -0.99346458911896, -0.0095000267028809, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.3345000743866, 0.99346458911896, 0.74899995326996, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car/subaru_legacy_kombi/subaru_legacy_kombi_interior.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/w1_lod0.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3580000400543, 0.75100004673004, 0.3129999935627, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2979999780655, 0, 0.3129999935627, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/w1_lod0.msh",
+						name = "w1_2",
+						transf = { 1, -1.499759904158e-32, -1.2246468525852e-16, 0, 0, -1, 1.2246468525852e-16, 0, 1.2246468525852e-16, 1.2246468525852e-16, 1, 0, 1.3580000400543, -0.75100004673004, 0.3129999935627, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.3580000400543, 0.75100004673004, 0.3129999935627, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2979999780655, 2.9802322387695e-08, 0.31300002336502, 1, },
+					},
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/w1_lod1.msh",
+						name = "w1",
+						transf = { -1, 1.2246468525852e-16, -1.2246468525852e-16, 0, -1.2246468525852e-16, -1, -1.2246468525852e-16, 0, -1.2246468525852e-16, -1.2246468525852e-16, 1, 0, 1.3580000400543, -0.75100004673004, 0.3129999935627, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/subaru_legacy/mc_subaru_legacy_schwarz.mtl", },
+						mesh = "vehicle/car/subaru_legacy_kombi/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

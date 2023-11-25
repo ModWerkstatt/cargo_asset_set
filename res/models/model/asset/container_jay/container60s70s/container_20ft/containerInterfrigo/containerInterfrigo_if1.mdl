@@ -1,0 +1,88 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.0492396354675, 1.2531634569168, 2.5881009101868, },
+		bbMin = { -3.0492396354675, -1.2531635761261, -0.0019961888901889, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.0492396354675, 1.2531635761261, 1.2950485944748, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/containerInterfrigo_if1.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/jay_container_interfrigoOld_lod0.msh",
+						name = "jay_container_interfrigoOld",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 1.011045217514, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/containerInterfrigo_if1.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/jay_container_interfrigoOld_seiten_lod0.msh",
+						name = "jay_container_interfrigoOld_seiten",
+						transf = { -0.00011605522740865, -0.0099993264302611, 6.9175125697041e-12, 0, 4.9031484650186e-08, -5.6215637700419e-10, 0.0099999997764826, 0, -0.0099993264302611, 0.00011605522740865, 4.9034703408779e-08, 0, 0, 0, -2.2551405187698e-17, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/containerInterfrigo_if1.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/jay_container_interfrigoOld_fanGitter_lod0.msh",
+						name = "jay_container_interfrigoOld_fanGitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/containerInterfrigo_if1.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/jay_container_interfrigoOld_seiten_lod0.msh",
+						name = "jay_container_interfrigoOld_seiten2",
+						transf = { 0.00011605554027483, 0.0099993264302611, -2.8591262690725e-10, 0, 2.1496889601735e-08, 3.643174650847e-11, 0.0099999997764826, 0, 0.0099993264302611, -0.00011605554027483, -2.149502087434e-08, 0, 0, 0, -2.2551405187698e-17, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 255.58958435059,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/containerInterfrigo_if1.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_lod1.msh",
+						name = "jay_container_coolingOld",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 1.011045217514, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 255.58958435059,
+			visibleTo = 655.58959960938,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/containerInterfrigo_if1.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_lod2.msh",
+						name = "jay_container_old",
+						transf = { 2.9820187091827, 0, 0, 0, 0, 1.1547139883041, 0, 0, 0, 0, 1.2609341144562, 0, 0, 0, 1.2820333242416, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 655.58959960938,
+			visibleTo = 1566.7687988281,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

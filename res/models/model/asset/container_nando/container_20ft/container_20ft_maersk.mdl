@@ -1,0 +1,118 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			3.05, 1.21, 2.6, 
+		},
+		bbMin = {
+			-3.05, -1.21, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {
+							"asset/container_nando/container_20ft_40ft_45ft/container_maersk.mtl", 
+						},
+						mesh = "asset/container_nando/container_20ft_lod_0.msh",
+						transf = {
+							1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						},
+						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {
+							"asset/container_nando/container_20ft_40ft_45ft/container_maersk.mtl", 
+						},
+						mesh = "asset/container_nando/container_20ft_lod_1.msh",
+						transf = {
+							1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						},
+						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {
+							"asset/container_nando/container_20ft_40ft_45ft/container_maersk.mtl", 
+						},
+						mesh = "asset/container_nando/container_20ft_lod_2.msh",
+						transf = {
+							1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						},
+						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

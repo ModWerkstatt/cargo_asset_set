@@ -1,0 +1,70 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.0479974746704, 1.2000007629395, 2.5900001525879, },
+		bbMin = { -3.0480015277863, -1.2000000476837, -2.2530717558311e-07, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.047999382019, 1.2000004053116, 1.2950001955032, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_nando/container_20ft_40ft_45ft/repaints_jay_60s70s/container_belgian.mtl", },
+						mesh = "asset/container_nando/doubleSided/container_20ftDouble_lod_0_lod0.msh",
+						name = "container_20ftDouble_lod_0",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_nando/container_20ft_40ft_45ft/repaints_jay_60s70s/container_belgian.mtl", },
+						mesh = "asset/container_nando/container_20ft_lod_1.msh",
+						name = "container_20ftDouble_lod_0",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_nando/container_20ft_40ft_45ft/repaints_jay_60s70s/container_belgian.mtl", },
+						mesh = "asset/container_nando/container_20ft_lod_2.msh",
+						name = "container_20ftDouble_lod_0",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

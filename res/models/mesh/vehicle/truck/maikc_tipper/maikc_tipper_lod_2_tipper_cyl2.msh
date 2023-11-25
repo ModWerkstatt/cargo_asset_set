@@ -1,0 +1,73 @@
+function data()
+return {
+	animations = {
+		opend1 = {
+			params = {
+				keyframes = {
+					{
+						rot = { 0.0, 0.0, 0.0, },
+						time = 0.0,
+						transl = { 0.0, 0.0, 0.0, },
+					}, {
+						rot = { 0.0, 0.0, 0.0, },
+						time = 1100.0,
+						transl = { 0.0, 0.0, 1.55, },
+					}, 
+				},
+				origin = { 0.0, 0.0, 0.0, },
+			},
+			type = "KEYFRAME",
+		},
+	},
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 528,
+					offset = 1944,
+				},
+				position = {
+					count = 528,
+					offset = 3000,
+				},
+				tangent = {
+					count = 528,
+					offset = 1416,
+				},
+				uv0 = {
+					count = 528,
+					offset = 2472,
+				},
+			},
+			materials = {
+				"vehicle/truck/maikc_tipper_1.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 168,
+			numComp = 3,
+			offset = 560,
+		},
+		position = {
+			count = 288,
+			numComp = 3,
+			offset = 1128,
+		},
+		tangent = {
+			count = 560,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 400,
+			numComp = 2,
+			offset = 728,
+		},
+	},
+}
+end

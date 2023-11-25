@@ -1,0 +1,133 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {7.05, 1.28, 4.15,},
+		bbMin = {-6.85, -1.28, 0,},
+	},
+	collider = {
+		params = {
+		},
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				animations = {},
+				children = {
+					{
+						animations = {},
+						children = {
+							{_meshId = 1,
+								materials = {"asset/krone_trailer/set1/krone_trailer_ewals.mtl",},
+								mesh = "asset/krone_trailer/krone_trailer_lod_0.msh",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.15, 1,},
+							}, 
+							{_meshId = 2,
+								materials = {"vehicle/truck/wheels/wheels_ao.mtl",},
+								mesh = "vehicle/truck/wheels/wheel_trailer_lod_0.msh",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.40, 0, 0.54, 1,},
+							}, 
+							{_meshId = 3,
+								materials = {"vehicle/truck/wheels/wheels_ao.mtl",},
+								mesh = "vehicle/truck/wheels/wheel_trailer_lod_0.msh",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.63, 0, 0.54, 1,},
+							}, 
+							{_meshId = 4,
+								materials = {"vehicle/truck/wheels/wheels_ao.mtl",},
+								mesh = "vehicle/truck/wheels/wheel_trailer_lod_0.msh",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.86, 0, 0.54, 1,},
+							},
+							{_meshId = 5,
+								materials = {"lights/rear_lights.mtl",},
+								mesh = "lights/rear_light_square.msh",
+								name = "rear_lamp_left",
+								transf = {-1.3, 1.5920408388916e-16, 0, 0, -5.1435165564189e-17, -0.4, 0, 0, 0, 0, 0.69, 0, -6.43702, 0.7428, 0.776, 1,},	
+							},
+							{_meshId = 6,
+								materials = {"lights/rear_lights.mtl",},
+								mesh = "lights/rear_light_square.msh",
+								name = "rear_lamp_right",
+								transf = {-1.3, 1.5920408388916e-16, 0, 0, -5.1435165564189e-17, -0.4, 0, 0, 0, 0, 0.69, 0, -6.43702, -0.7428, 0.784, 1,},
+							}, 
+							{_meshId = 7,
+								materials = {"lights/brake_lights_krone.mtl",},
+								mesh = "lights/rear_light_square.msh",
+								name = "brake_lights_left",
+								transf = {-1.3, 1.5920408388916e-16, 0, 0, -5.1435165564189e-17, -0.984, 0, 0, 0, 0, 0.69, 0, -6.43702, 0.952, 0.777, 1,},
+							},
+							{_meshId = 8,
+								materials = {"lights/brake_lights_krone.mtl",},
+								mesh = "lights/rear_light_square.msh",
+								name = "brake_lights_right",
+								transf = {-1.3, 1.5920408388916e-16, 0, 0, -5.1435165564189e-17, -0.984, 0, 0, 0, 0, 0.69, 0, -6.43702, -0.952, 0.782, 1,},
+							},
+							{_meshId = 9,
+								materials = {"lights/blink_lights.mtl",},
+								mesh = "lights/rear_light_square.msh",
+								name = "blink_lights_left",
+								transf = {-1.3, 1.5920408388916e-16, 0, 0, -5.1435165564189e-17, -0.35, 0, 0, 0, 0, 0.65, 0, -6.43702, 1.081, 0.777, 1,},
+								
+							},
+							{_meshId = 10,
+								materials = {"lights/blink_lights.mtl",},
+								mesh = "lights/rear_light_square.msh",
+								name = "blink_lights_right",
+								transf = {-1.3, 1.5920408388916e-16, 0, 0, -5.1435165564189e-17, -0.35, 0, 0, 0, 0, 0.65, 0, -6.43702, -1.079, 0.782, 1,},
+							},
+						},
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+			
+		}, 
+		{
+			node = {
+				animations = {},
+				children = {
+					{_meshId = 1,
+						materials = {"asset/krone_trailer/set1/krone_trailer_ewals.mtl",},
+						mesh = "asset/krone_trailer/krone_trailer_asset_lod_1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,
+			
+		}, 
+		{
+			node = {
+				animations = {},
+				children = {
+					{_meshId = 1,
+						materials = {"asset/krone_trailer/set1/krone_trailer_ewals.mtl",},
+						mesh = "asset/krone_trailer/krone_trailer_asset_lod_2.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2013,
+			yearTo = 0,
+		},
+		cost = {
+			price = 500,
+		},
+	},
+	version = 1,
+}
+end

@@ -1,0 +1,73 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 6.0999999046326, 1.210000038147, 2.5999999046326, },
+		bbMin = { -6.0999999046326, -1.210000038147, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 6.0999999046326, 1.210000038147, 1.2999999523163, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2999999523163, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_nando/container_20ft_40ft_45ft/repaints_jay_80s90s/container_40ft_cai.mtl", },
+						mesh = "asset/container_nando/container_40ft_lod_0.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_nando/container_20ft_40ft_45ft/repaints_jay_80s90s/container_40ft_cai.mtl", },
+						mesh = "asset/container_nando/container_40ft_lod_1.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_nando/container_20ft_40ft_45ft/repaints_jay_80s90s/container_40ft_cai.mtl", },
+						mesh = "asset/container_nando/container_40ft_lod_2.msh",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,
+		},
+		cost = {
+			price = 500,
+			priceScale = 1,
+		},
+	},
+	version = 1,
+}
+end

@@ -1,0 +1,118 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			7.05, 1.28, 4.05, 
+		},
+		bbMin = {
+			-6.98, -1.28, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {
+							"asset/krone_trailer/set1/krone_trailer_gw.mtl", 
+						},
+						mesh = "asset/krone_trailer/krone_trailer_ladung_lod_0.msh",
+						transf = {
+							1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						},
+						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {
+							"asset/krone_trailer/set1/krone_trailer_gw.mtl", 
+						},
+						mesh = "asset/krone_trailer/krone_trailer_ladung_lod_1.msh",
+						transf = {
+							1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						},
+						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 500,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						_meshId = 1,
+						materials = {
+							"asset/krone_trailer/set1/krone_trailer_gw.mtl", 
+						},
+						mesh = "asset/krone_trailer/krone_trailer_ladung_lod_2.msh",
+						transf = {
+							1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+						},
+						
+					}, 
+				},
+				transf = {
+					1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 
+				},
+				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2013,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end

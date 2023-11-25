@@ -1,0 +1,134 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.0, 0.9, 1.5, },
+		bbMin = { -2.0, -0.9, -0.05, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						children = {
+								{
+									materials = { "asset/car/corolla/mc_corolla_pink.mtl", },
+									mesh = "vehicle/car/corolla/body_lod0.msh",
+									name = "body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "vehicle/car/corolla/corolla_interior.mtl", },
+									mesh = "vehicle/car/corolla/interior_lod0.msh",
+									name = "interior",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "vehicle/car/corolla/corolla.mtl", },
+									mesh = "vehicle/car/corolla/w1_lod0.msh",
+									name = "w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15, 0.66, 0.29, 1, },
+								},
+								{
+									materials = { "vehicle/car/corolla/corolla.mtl", },
+									mesh = "vehicle/car/corolla/w2_lod0.msh",
+									name = "w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24, 0, 0.29, 1, },
+								},
+								{
+									materials = { "vehicle/car/corolla/corolla.mtl", },
+									mesh = "vehicle/car/corolla/w1_lod0.msh",
+									name = "w1_2",
+									transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.15, -0.66, 0.29, 1, },
+								},
+							},
+							name = "corolla_grp",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0, 0.0, 0.0, 1, },
+					},			
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 90,
+		},		
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/corolla/mc_corolla_pink.mtl", },
+						mesh = "vehicle/car/corolla/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/corolla/corolla.mtl", },
+						mesh = "vehicle/car/corolla/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15, 0.66, 0.29, 1, },
+					},
+					{
+						materials = { "vehicle/car/corolla/corolla.mtl", },
+						mesh = "vehicle/car/corolla/w1_lod1.msh",
+						name = "w1_2",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.15, -0.65, 0.29, 1, },
+					},
+					{
+						materials = { "vehicle/car/corolla/corolla.mtl", },
+						mesh = "vehicle/car/corolla/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0, 1.0, 0, -1.24, 0, 0.29, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 90,
+			visibleTo = 190,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/corolla/mc_corolla_pink.mtl", },
+						mesh = "vehicle/car/corolla/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/corolla/corolla.mtl", },
+						mesh = "vehicle/car/corolla/w1_lod2.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15, 0.66, 0.29, 1, },
+					},
+					{
+						materials = { "vehicle/car/corolla/corolla.mtl", },
+						mesh = "vehicle/car/corolla/w1_lod2.msh",
+						name = "w1_2",
+						transf = { 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.15, -0.66, 0.29, 1, },
+					},
+					{
+						materials = { "vehicle/car/corolla/corolla.mtl", },
+						mesh = "vehicle/car/corolla/w2_lod2.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24, 0, 0.29, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 190,
+			visibleTo = 600,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

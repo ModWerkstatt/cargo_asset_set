@@ -1,0 +1,112 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.7595000267029, 1.0805802345276, 1.4844599962234, },
+		bbMin = { -2.7620003223419, -1.0805802345276, -0.0055000782012939, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.7607502937317, 1.0805802345276, 0.74498003721237, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/body_lod0.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/lincoln_town_car/lincoln_town_car_interior.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/interior_lod0.msh",
+						name = "interior",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/w1_lod0.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6819999217987, 0.72245091199875, 0.33450001478195, 1, },
+					},
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/w1_lod0.msh",
+						name = "w1_2",
+						transf = { 1, 8.7422776573476e-08, 1.2246468525852e-16, 0, 8.7422776573476e-08, -1, -1.2246468525852e-16, 0, -1.2246467202363e-16, -1.2246469849341e-16, 1, 0, 1.6819999217987, -0.72245091199875, 0.33450001478195, 1, },
+					},
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3597402572632, 0, 0.33450001478195, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/w1_lod1.msh",
+						name = "w1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.6819999217987, 0.72245091199875, 0.33450001478195, 1, },
+					},
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/w1_lod1.msh",
+						name = "w1",
+						transf = { -1, -8.7422776573476e-08, -1.2246468525852e-16, 0, 8.7422776573476e-08, -1, -1.2246467202363e-16, 0, -1.2246467202363e-16, -1.2246468525852e-16, 1, 0, 1.6819999217987, -0.72245091199875, 0.33450001478195, 1, },
+					},
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/w2_lod1.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3597402572632, 0, 0.3345000743866, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/car/lincoln_town_car/mc_lincoln_town_gruen.mtl", },
+						mesh = "vehicle/car/lincoln_town_car/body_lod2.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

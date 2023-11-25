@@ -1,0 +1,126 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.0492396354675, 1.2001103162766, 2.5881009101868, },
+		bbMin = { -3.0492396354675, -1.2001103162766, -0.0019961888901889, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.0492396354675, 1.2001103162766, 1.2950485944748, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_lod0.msh",
+						name = "jay_container_coolingOld",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 1.011045217514, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_cable1_lod0.msh",
+						name = "jay_container_coolingOld_cable1",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_aggregatAlt_lod0.msh",
+						name = "jay_container_aggregatAlt",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0.04265833646059, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_cable2_lod0.msh",
+						name = "jay_container_coolingOld_cable2",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						animations = {
+							forever = {
+								params = {
+									id = "asset/container_jay/container60s70s/container_20ft/containerCool/Scene/jay_container_coolingOld_fan.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_fan_lod0.msh",
+						name = "jay_container_coolingOld_fan",
+transf = { 1, 0, 0, 0, 0, -0.40169548988342, 0.9157732129097, 0, 0, -0.9157732129097, -0.40169548988342, 0, 2.9361705780029, -0.014868051744998, 1.8238517045975, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_fangitter_lod0.msh",
+						name = "jay_container_coolingOld_fangitter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/jay_container_interfrigoOld_seiten_lod0.msh",
+						name = "jay_container_interfrigoOld_seiten2",
+						transf = { -4.3711387287537e-10, 0.0099999997764826, -2.859125713961e-10, 0, 1.9510601134698e-08, 2.8591343181894e-10, 0.0099999997764826, 0, 0.0099999997764826, 4.3711331776386e-10, -1.9510601134698e-08, 0, -0.46000000834465, 0.019999999552965, -2.2551405187698e-17, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerInterfrigo/jay_container_interfrigoOld_seiten_lod0.msh",
+						name = "jay_container_interfrigoOld_seiten",
+						transf = { -4.3711387287537e-10, -0.0099999997764826, 6.9175121360232e-12, 0, 4.9630788367949e-08, 6.9153424306356e-12, 0.0099999997764826, 0, -0.0099999997764826, 4.3711390063095e-10, 4.9630788367949e-08, 0, 0, -0.019999999552965, -2.2551405187698e-17, 1, },
+					},
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_gitter_lod0.msh",
+						name = "jay_container_coolingOld_gitter",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 0.89568209648132, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 255.58958435059,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_lod1.msh",
+						name = "jay_container_coolingOld",
+						transf = { 3.0246150493622, 0, 0, 0, 0, 1.011045217514, 0, 0, 0, 0, 1.254137635231, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 255.58958435059,
+			visibleTo = 655.58959960938,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "asset/container_jay/container60s70s/container_20ft/containerCool/containerCool_interfrigoAlt.mtl", },
+						mesh = "asset/container_jay/container60s70s/container_20ft/containerCool/jay_container_coolingOld_lod2.msh",
+						name = "jay_container_old",
+						transf = { 2.9820187091827, 0, 0, 0, 0, 1.1547139883041, 0, 0, 0, 0, 1.2609341144562, 0, 0, 0, 1.2820333242416, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 655.58959960938,
+			visibleTo = 1566.7687988281,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

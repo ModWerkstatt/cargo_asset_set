@@ -1,0 +1,296 @@
+List of file paths to the mdl files for the different container types.
+----------------------------------------------------------------------
+
+Container 20/40/45/53ft:
+
+paintwork:			size:			
+CMA					20			/asset/container_nando/container_20ft/container_20ft_cma.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_cma.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_cma.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_cma.mdl
+					
+CSX					20			/asset/container_nando/container_20ft/container_20ft_csx.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_csx.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_csx.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_csx.mdl
+					
+DHL					20			/asset/container_nando/container_20ft/container_20ft_dhl.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_dhl.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_dhl.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_dhl.mdl
+					
+Evergreen			20			/asset/container_nando/container_20ft/container_20ft_evergreen.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_evergreen.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_evergreen.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_evergreen.mdl
+					
+generic				20			/asset/container_nando/container_20ft/container_20ft_generic.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_generic.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_generic.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_generic.mdl
+					
+Maersk				20			/asset/container_nando/container_20ft/container_20ft_maersk.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_maersk.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_maersk.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_maersk.mdl
+					
+Pacer				20			/asset/container_nando/container_20ft/container_20ft_pacer.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_pacer.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_pacer.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_pacer.mdl
+					
+Hamburg Süd			20			/asset/container_nando/container_20ft/container_20ft_hamburg.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_hamburg.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_hamburg.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_hamburg.mdl
+					
+Hanjin 				20			/asset/container_nando/container_20ft/container_20ft_hanjin.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_hanjin.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_hanjin.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_hanjin.mdl
+					
+Hapag LIoyd			20			/asset/container_nando/container_20ft/container_20ft_hl.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_hl.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_hl.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_hl.mdl
+					
+P&O					20			/asset/container_nando/container_20ft/container_20ft_po.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_po.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_po.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_po.mdl
+					
+P&O Ferrymasters	20			/asset/container_nando/container_20ft/container_20ft_pof.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_pof.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_pof.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_pof.mdl
+					
+Samskip				20			/asset/container_nando/container_20ft/container_20ft_samskip.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_samskip.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_samskip.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_samskip.mdl
+					
+MaikC/Nando			20			/asset/container_nando/container_20ft/container_20ft_maikc.mdl
+					40			/asset/container_nando/container_40ft/container_40ft_maikc.mdl
+					45			/asset/container_nando/container_45ft/container_45ft_maikc.mdl
+					53			/asset/container_nando/container_53ft/container_53ft_maikc.mdl
+					
+---------------------------------------------------------------------------------------------------------------------
+
+Container High Cube 20/40ft:
+
+paintwork:			size:			
+CMA					20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_cma.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_cma.mdl
+					
+Cosco				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_cosco.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_cosco.mdl
+					
+CSX					20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_csx.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_csx.mdl
+					
+DHL					20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_dhl.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_dhl.mdl
+					
+Evergreen			20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_evergreen.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_evergreen.mdl
+					
+generic				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_generic.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_generic.mdl
+					
+Hamburg Süd			20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_hamburg.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_hamburg.mdl
+					
+Hanjin				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_hanjin.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_hanjin.mdl
+					
+Hamburg Süd			20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_hl.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_hl.mdl
+					
+Maersk				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_maersk.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_maersk.mdl
+					
+MaikC/Nando			20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_maikc.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_maikc.mdl
+					
+MSC					20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_msc.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_msc.mdl
+					
+ONE					20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_one.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_one.mdl
+					
+OOCL				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_oocl.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_oocl.mdl
+					
+Pacer				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_pacer.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_pacer.mdl
+					
+P&O					20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_po.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_po.mdl
+					
+P&O Ferrymasters	20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_pof.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_pof.mdl
+					
+Samskip				20			/asset/container_kaleut/container_20ft_hc/container_20ft_hc_samskip.mdl
+					40			/asset/container_kaleut/container_40ft_hc/container_40ft_hc_samskip.mdl
+					
+---------------------------------------------------------------------------------------------------------------------
+
+Tanktainer 20ft
+
+paintwork:			color:				material:
+Bertschi AG			brown				/asset/container_nando/tanktainer_20ft/tanktainer_20ft_bert.mdl
+Eurotainer			silver/yellow		/asset/container_nando/tanktainer_20ft/tanktainer_20ft_et.mdl
+generic				white/blue			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_generic.mdl
+Stolt				white/black			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_stolt.mdl
+Chevron				blue/white			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_chevron.mdl
+Gulf				orange/blue/white	/asset/container_nando/tanktainer_20ft/tanktainer_20ft_gulf.mdl
+Sunoco				blue/white			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_sunoco.mdl
+Texaco				grey/black			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_texaco.mdl
+Hoyer				grey/red			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_hoyer.mdl
+MaikC/Nando			black/white			/asset/container_nando/tanktainer_20ft/tanktainer_20ft_maikc.mdl
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Tanktainer 26ft
+
+paintwork:			color:			material:
+Van Den Bosch		white/beige		/asset/container_nando/tanktainer_26ft/tanktainer_26ft_vdb.mdl
+					v2				/asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vdb.mdl
+					
+Foodtrans			white/green		/asset/container_nando/tanktainer_26ft/tanktainer_26ft_hsft.mdl
+					v2				/asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_hsft.mdl
+					
+generic				white/blue		/asset/container_nando/tanktainer_26ft/tanktainer_26ft_generic.mdl
+					v2				/asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_generic.mdl
+					
+Bertschi			silver/brown	/asset/container_nando/tanktainer_26ft/tanktainer_26ft_bert.mdl
+					v2				/asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_bert.mdl
+					
+VTG					white/blue		/asset/container_nando/tanktainer_26ft/tanktainer_26ft_vtg.mdl
+					v2				/asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_vtg.mdl
+					
+MaikC/Nando			black/white		/asset/container_nando/tanktainer_26ft/tanktainer_26ft_maikc.mdl
+					v2				/asset/container_nando/tanktainer_26ft/tanktainer_26ft_v2_maikc.mdl
+
+________________________________________________________________________________________________________
+
+
+CARGO MIX paths:
+----------------
+
+Concrete Tube:	
+MDL:		"/asset/misc/concrete_tube.mdl"
+Mesh:		"/asset/misc/construction/concrete_tube_lod_0.msh"
+			"/asset/misc/construction/concrete_tube_lod_1.msh"
+			"/asset/misc/construction/concrete_tube_lod_2.msh"
+Material:	"/asset/misc/misc_loading_2.mtl"
+
+Granit Blocks:	
+MDL:		"/asset/misc/granite_block_1.mdl"				/	"/asset/misc/granite_block_2.mdl"
+Mesh:		"/asset/misc/stone/granite_block_1_lod_0.msh"	/	"/asset/misc/stone/granite_block_2_lod_0.msh"	+	"/asset/misc/wood/wooden_slat_lod_0.msh"
+			"/asset/misc/stone/granite_block_1_lod_1.msh"	/	"/asset/misc/stone/granite_block_2_lod_1.msh"	+	"/asset/misc/wood/wooden_slat_lod_0.msh"
+Material:	"/asset/misc/misc_loading_2.mtl"																	+	"/asset/misc/misc_loading_1.mtl"
+
+Plastic Tube:	
+MDL:		"/asset/misc/plastic_tube_pack.mdl"				/	"/asset/misc/plastic_tube_pack_wooden_slat.mdl"
+Mesh:		"/asset/misc/plastic/plastic_tube_lod_0.msh"	/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+			"/asset/misc/plastic/plastic_tube_lod_1.msh"	/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+Material:	"/asset/misc/misc_loading_1.mtl"
+
+Steel Coils:	
+MDL:		"/asset/misc/steel_coil_1.mdl"				/	"/asset/misc/steel_coil_2.mdl"
+Mesh:		"/asset/misc/steel/steel_coil_1_lod_0.msh"	/	"/asset/misc/steel/steel_coil_2_lod_0.msh"
+			"/asset/misc/steel/steel_coil_1_lod_1.msh"	/	"/asset/misc/steel/steel_coil_2_lod_1.msh"
+			"/asset/misc/steel/steel_coil_1_lod_2.msh"	/	"/asset/misc/steel/steel_coil_2_lod_2.msh"
+Material:	"/asset/misc/misc_loading_3.mtl"
+
+Steel Profile 1:	
+MDL:		"/asset/misc/steel_profile_1.mdl"				/	"/asset/misc/steel_profile_1_wooden_slat.mdl"
+Mesh:		"/asset/misc/steel/steel_profile_lod_0.msh"		/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+			"/asset/misc/steel/steel_profile_lod_1.msh"		/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+Material:	"/asset/misc/misc_loading_1.mtl"
+
+Steel Profile 2:	
+MDL:		"/asset/misc/steel_profile_2.mdl"				/	"/asset/misc/steel_profile_2_wooden_slat.mdl"
+Mesh:		"/asset/misc/steel/steel_profile_2_lod_0.msh"	/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+			"/asset/misc/steel/steel_profile_2_lod_1.msh"	/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+Material:	"/asset/misc/misc_loading_2.mtl"				/ +	"/asset/misc/misc_loading_1.mtl"
+
+Steel Profile 3:	
+MDL:		"/asset/misc/steel_profile_3.mdl"				/	"/asset/misc/steel_profile_3_wooden_slat.mdl"
+Mesh:		"/asset/misc/steel/steel_profile_3_lod_0.msh"	/ +	"/asset/misc/wood/wooden_slat_lod_0.msh"
+Material:	"/asset/misc/misc_loading_2.mtl"				/ +	"/asset/misc/misc_loading_1.mtl"
+
+Steel Tubes:	
+MDL:		"/asset/misc/steel_tube_long_pack_3.mdl"		/	"/asset/misc/steel_tube_long_short_pack_3.mdl"	/	"/asset/misc/steel_tube_short_pack_2.mdl"
+			"/asset/misc/steel_tube_long_pack_4.mdl"
+Mesh:		"/asset/misc/steel/steel_tube_long_lod_0.msh"	/ + "/asset/misc/steel/steel_tube_short_lod_0.msh"	/	"/asset/misc/steel/steel_tube_short_lod_0.msh"
+			"/asset/misc/steel/steel_tube_long_lod_1.msh"	/ + "/asset/misc/steel/steel_tube_short_lod_1.msh"	/	"/asset/misc/steel/steel_tube_short_lod_0.msh"
+Material:	"/asset/misc/misc_loading_1.mtl"
+
+______________________________________________________________________________________________________________
+
+
+Krone Trailer:
+--------------
+
+Krone Trailer for use as cargo load.
+
+"asset/krone_trailer/krone_trailer_ladung_lod_0.msh"
+"asset/krone_trailer/krone_trailer_ladung_lod_1.msh"
+"asset/krone_trailer/krone_trailer_ladung_lod_2.msh"
+
+MDL/Material Paths:
+
+"asset/krone_trailer/ladung/set1/krone_trailer_dhl_ladung.mdl"			-->"asset/krone_trailer/set1/krone_trailer_dhl.mtl"	
+"asset/krone_trailer/ladung/set1/krone_trailer_enterprise_ladung.mdl"	-->"asset/krone_trailer/set1/krone_trailer_enterprise.mtl"	
+"asset/krone_trailer/ladung/set1/krone_trailer_ewals_ladung.mdl"		-->"asset/krone_trailer/set1/krone_trailer_ewals.mtl"	
+"asset/krone_trailer/ladung/set1/krone_trailer_gw_ladung.mdl"			-->"asset/krone_trailer/set1/krone_trailer_gw.mtl"	
+"asset/krone_trailer/ladung/set1/krone_trailer_schenker_ladung.mdl"		-->"asset/krone_trailer/set1/krone_trailer_schenker.mtl"	
+"asset/krone_trailer/ladung/set1/krone_trailer_walter_ladung.mdl"		-->"asset/krone_trailer/set1/krone_trailer_walter.mtl"	
+
+"asset/krone_trailer/ladung/set2/krone_trailer_asg_ladung.mdl"			-->"asset/krone_trailer/set2/krone_trailer_asg.mtl"	
+"asset/krone_trailer/ladung/set2/krone_trailer_bilspedition_ladung.mdl"	-->"asset/krone_trailer/set2/krone_trailer_bilspedition.mtl"	
+"asset/krone_trailer/ladung/set2/krone_trailer_kuehne_ladung.mdl"		-->"asset/krone_trailer/set2/krone_trailer_kuehne.mtl"	
+"asset/krone_trailer/ladung/set2/krone_trailer_nagel_ladung.mdl"		-->"asset/krone_trailer/set2/krone_trailer_nagel.mtl"	
+"asset/krone_trailer/ladung/set2/krone_trailer_planzer_ladung.mdl"		-->"asset/krone_trailer/set2/krone_trailer_planzer.mtl"	
+"asset/krone_trailer/ladung/set2/krone_trailer_vdaalen_ladung.mdl"		-->"asset/krone_trailer/set2/krone_trailer_vdaalen.mtl"	
+
+
+
+-----------------------------------------------------------------------------------------
+
+
+MDL paths to use as a template for Trailer in truck mods with lights on.
+
+"asset/krone_trailer/set1/krone_trailer_dhl_hdr.mdl"
+"asset/krone_trailer/set1/krone_trailer_enterprise_hdr.mdl"
+"asset/krone_trailer/set1/krone_trailer_ewals_hdr.mdl"
+"asset/krone_trailer/set1/krone_trailer_gw_hdr.mdl"
+"asset/krone_trailer/set1/krone_trailer_schenker_hdr.mdl"
+"asset/krone_trailer/set1/krone_trailer_walter_hdr.mdl"
+
+"asset/krone_trailer/set2/krone_trailer_asg_hdr.mdl"
+"asset/krone_trailer/set2/krone_trailer_bilspedition_hdr.mdl"
+"asset/krone_trailer/set2/krone_trailer_kuehne_hdr.mdl"
+"asset/krone_trailer/set2/krone_trailer_nagel_hdr.mdl"
+"asset/krone_trailer/set2/krone_trailer_planzer_hdr.mdl"
+"asset/krone_trailer/set2/krone_trailer_vdaalen_hdr.mdl"
+
+-------------------------------------------------------
+
+Wheel Set:
+
+"vehicle/truck/wheels/wheel_truck_left_lod0.msh" 	-> "vehicle/truck/wheels/wheels_ao.mtl"
+"vehicle/truck/wheels/wheel_truck_right_lod0.msh" 	-> "vehicle/truck/wheels/wheels_ao.mtl"
+"vehicle/truck/wheels/wheel_trailer_lod_0.msh" 		-> "vehicle/truck/wheels/wheels_ao.mtl"
+
+For Lod1 you can choose the Vanilla Asia truck wheels:
+"vehicle/truck/faw_jiefang_j6p_tipper/w1_l_lod1.msh" -> "vehicle/truck/faw_jiefang_j6p_tipper/faw_jiefang_j6p.mtl"
+"vehicle/truck/faw_jiefang_j6p_tipper/w1_r_lod1.msh" -> "vehicle/truck/faw_jiefang_j6p_tipper/faw_jiefang_j6p.mtl"
+"vehicle/truck/faw_jiefang_j6p_tipper/w2_lod1.msh"	 -> "vehicle/truck/faw_jiefang_j6p_tipper/faw_jiefang_j6p.mtl"
+
+For Lod2, the Vanilla 40 ton wheels work perfectly:
+"vehicle/truck/40_tons/w1_lod2.msh"		-> "vehicle/truck/40_tons/40_tons.mtl"
+"vehicle/truck/40_tons/w7_lod2.msh"		-> "vehicle/truck/40_tons/40_tons.mtl"
+"vehicle/truck/40_tons/w2_lod2.msh"		-> "vehicle/truck/40_tons/40_tons.mtl"

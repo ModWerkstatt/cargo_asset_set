@@ -1,0 +1,200 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.2, 1.5, 4.1, },
+		bbMin = { -14.0, -1.5, -0.05, },
+	},
+	collider = {
+		params = { },
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "MESH",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+					children = {
+							{
+								materials = { "asset/krone_trailer/set1/krone_trailer_ewals.mtl", },
+								mesh = "asset/krone_trailer/krone_trailer_asset_lod_0.msh",
+								name = "MSH_amazon_dhl_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.0, 0.0, 0.06, 1, },
+							},	
+							{
+							children = {
+										{
+											materials = { "asset/truck/40_tons/40_tons_white.mtl", },
+											mesh = "vehicle/truck/40_tons/body_lod0.msh",
+											name = "body",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w1_lod0.msh",
+											name = "w1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.477, -0.77, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w7_lod0.msh",
+											name = "w7",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.477, 0.77, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w2_lod0.msh",
+											name = "w2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.99, 0.0, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w3_lod0.msh",
+											name = "w3",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.91, 0, 0.41, 1, },
+										},			
+										{
+											materials = { "vehicle/truck/40_tons/40_tons_interior.mtl", },
+											mesh = "vehicle/truck/40_tons/interior_lod0.msh",
+											name = "interior",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+									},
+									name = "GRP_lkw",
+									transf = {1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1.2, 0, 0.0, 0.0, 0.0, 1, },
+								},
+							},
+							name = "GRP_krone_trailer",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+					},					
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},	
+		{
+			node = {
+				children = {
+					{
+					children = {
+							{
+								materials = { "asset/krone_trailer/set1/krone_trailer_ewals.mtl", },
+								mesh = "asset/krone_trailer/krone_trailer_asset_lod_1.msh",
+								name = "MSH_amazon_dhl_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.0, 0.0, 0.06, 1, },
+							},	
+							{
+							children = {
+										{
+											materials = { "asset/truck/40_tons/40_tons_white.mtl", },
+											mesh = "vehicle/truck/40_tons/body_lod1.msh",
+											name = "body",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w1_lod1.msh",
+											name = "w1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.477, -0.77, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w7_lod1.msh",
+											name = "w7",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.477, 0.77, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w2_lod1.msh",
+											name = "w2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.99, 0.0, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w3_lod1.msh",
+											name = "w3",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.91, 0, 0.41, 1, },
+										},			
+									},
+									name = "GRP_lkw",
+									transf = {1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1.2, 0, 0.0, 0.0, 0.0, 1, },
+								},
+							},
+							name = "GRP_krone_trailer",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+					},					
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},	
+		{
+			node = {
+				children = {
+					{
+					children = {
+							{
+								materials = { "asset/krone_trailer/set1/krone_trailer_ewals.mtl", },
+								mesh = "asset/krone_trailer/krone_trailer_asset_lod_2.msh",
+								name = "MSH_amazon_dhl_1",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.0, 0.0, 0.06, 1, },
+							},	
+							{
+							children = {
+										{
+											materials = { "asset/truck/40_tons/40_tons_white.mtl", },
+											mesh = "vehicle/truck/40_tons/body_lod2.msh",
+											name = "body",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w1_lod2.msh",
+											name = "w1",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.477, -0.77, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w7_lod2.msh",
+											name = "w7",
+											transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.477, 0.77, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w2_lod2.msh",
+											name = "w2",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.99, 0.0, 0.41, 1, },
+										},
+										{
+											materials = { "vehicle/truck/40_tons/40_tons.mtl", },
+											mesh = "vehicle/truck/40_tons/w3_lod2.msh",
+											name = "w3",
+											transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.91, 0, 0.41, 1, },
+										},			
+									},
+									name = "GRP_lkw",
+									transf = {1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1.2, 0, 0.0, 0.0, 0.0, 1, },
+								},
+							},
+							name = "GRP_krone_trailer",
+								transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},
+					},					
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 2500,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

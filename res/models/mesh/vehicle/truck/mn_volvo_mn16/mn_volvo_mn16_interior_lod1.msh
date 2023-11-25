@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 3096,
+					offset = 15024,
+				},
+				position = {
+					count = 3096,
+					offset = 8832,
+				},
+				tangent = {
+					count = 3096,
+					offset = 11928,
+				},
+				uv0 = {
+					count = 3096,
+					offset = 18120,
+				},
+			},
+			materials = {
+				"vehicle/truck/maikc_volvo_interior_2.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 2076,
+			numComp = 3,
+			offset = 5044,
+		},
+		position = {
+			count = 2100,
+			numComp = 3,
+			offset = 0,
+		},
+		tangent = {
+			count = 2944,
+			numComp = 4,
+			offset = 2100,
+		},
+		uv0 = {
+			count = 1712,
+			numComp = 2,
+			offset = 7120,
+		},
+	},
+}
+end
