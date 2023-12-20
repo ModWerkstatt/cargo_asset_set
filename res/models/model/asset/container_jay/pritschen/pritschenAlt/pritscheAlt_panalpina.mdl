@@ -16,49 +16,49 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_mitte_lod0.msh",
 						name = "jay_mesh_pritscheAlt_mitte",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_bordwandSeite_lod0.msh",
 						name = "jay_mesh_pritscheAlt_bordwandSeite",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_untenBody_lod0.msh",
 						name = "jay_mesh_pritscheAlt_untenBody",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_plane_lod0.msh",
 						name = "jay_mesh_pritscheAlt_plane",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_halterAccecs_lod0.msh",
 						name = "jay_mesh_pritscheAlt_halterAccecs",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_seilhaken_lod0.msh",
 						name = "jay_mesh_pritscheAlt_seilhaken",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_bordwandFront_lod0.msh",
 						name = "jay_mesh_pritscheAlt_bordwandFront",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_standSteht_lod0.msh",
 						name = "jay_mesh_pritscheAlt_stand",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -74,43 +74,43 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_mitte_lod1.msh",
 						name = "jay_mesh_pritscheAlt_mitte",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_bordwandSeite_lod1.msh",
 						name = "jay_mesh_pritscheAlt_bordwandSeite",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_untenBody_lod1.msh",
 						name = "jay_mesh_pritscheAlt_untenBody",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_plane_lod1.msh",
 						name = "jay_mesh_pritscheAlt_plane",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_halterAccecs_lod1.msh",
 						name = "jay_mesh_pritscheAlt_halterAccecs",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_bordwandFront_lod1.msh",
 						name = "jay_mesh_pritscheAlt_bordwandFront",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 										{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_standSteht_lod1.msh",
 						name = "jay_mesh_pritscheAlt_stand",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -126,13 +126,13 @@ return {
 			node = {
 				children = {
 					{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_plane_lod2.msh",
 						name = "jay_mesh_pritscheAlt_plane",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 										{
-						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/PritscheAlt_panAlpina.mtl", },
+						materials = { "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/", },
 						mesh = "asset/container_jay/pritschen/pritschenAlt/pritscheAlt/jay_mesh_pritscheAlt_standSteht_lod2.msh",
 						name = "jay_mesh_pritscheAlt_stand",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
