@@ -3,7 +3,7 @@ return {
 	de = {
 		["name_mod"] = "Cargo Asset Set",
 		["desc_mod"] = (
-			"[h2][b] Cargo Asset Set Version 1.6 [/b][/h2]\n" ..
+			"[h2][b] Cargo Asset Set Version 1.61 [/b][/h2]\n" ..
 				" \n" ..
 				"Mit diesem Mod wird dem Spiel verschiedene Assets in Form von Containern, Bau- und Konstruktionselemente, sowie den Krone Sattelauflieger in diversen Varianten hinzugefügt.\n" ..
 				"\n" ..
@@ -20,12 +20,12 @@ return {
 				"https://steamcommunity.com/sharedfiles/filedetails/?id=1962843709 \n" ..
 				"https://steamcommunity.com/sharedfiles/filedetails/?id=2146074181 \n" ..
 				" \n" ..
-				"[h1][b]NEU:[/b][/h1]\n" ..	
+				"[h1][b]NEU:[/b][/h1]\n" ..
 				"Dank Jay_ gibt es nun auch Container aus den 60er und 70er, sowie aus den 80er und 90er Jahren. \n" ..
 				"Einzelne davon sind sogar Kühlcontainer.\n" ..
 				" \n" ..
 				" \n" ..
-				"[h2][b]Features:[/b][/h2]\n" ..		
+				"[h2][b]Features:[/b][/h2]\n" ..
 				"[list]" ..
 				"[*]3 Lod's \n" ..
 				"[*]DDS Texturen (mit Alterung wenn als Beladung in Mods verwendet)\n" ..
@@ -33,18 +33,18 @@ return {
 				"[*]Beladung Basis Set für andere Mods \n" ..
 				"[/list]"..
 				"\n" ..
-				"[h2][b]Autoren:[/b][/h2]\n" ..		
+				"[h2][b]Autoren:[/b][/h2]\n" ..
 				"[list]" ..
 				"[*][b]Modelle:[/b] [list][*]- Jansch \n" ..
 				"[*]- Jay\n" ..
 				"[*]- Kaleut\n" ..
 				"[*]- MaikC\n" ..
-				"[/list]"..	
+				"[/list]"..
 				"[*][b]Texturen:[/b] [list][*]- Jay \n" ..
 				"[*]- Kaleut\n" ..
 				"[*]- Nando\n" ..
 				"[*][b]Script:[/b] KoA\n" ..
-				"[/list]"..		
+				"[/list]"..
 				"\n" ..
 				"[h1][b]Hinweis für Content Creators:[/b][/h1]\n" ..
 				" \n" ..
@@ -77,41 +77,41 @@ return {
 		["name_terrain"] = "Terrain Anpassung",
 		["desc_cross_slope"] = "Querneigung",
 		["desc_longitudinal_slope"] = "Laengsneigung",
-				
+
 		--- Container Neu ---
 		["desc_mw_20ft"] = "20 Fuss Container",
 		["desc_mw_30ft"] = "30 Fuss Container",
 		["desc_mw_40ft"] = "40 Fuss Container",
-		
+
 		["desc_mw_20ft_hc"] = "20 Fuss High Cube Container",
 		["desc_mw_40ft_hc"] = "40 Fuss High Cube Container",
 		["desc_mw_45ft_hc"] = "45 Fuss High Cube Container",
-		
+
 		["desc_mw_silo_30ft"] = "30 Fuss Silotainer",
-		
+
 		["desc_mw_tank_20ft"] = "20 Fuss Tanktainer",
 		["desc_mw_tank_26ft"] = "26 Fuss Tanktainer",
 		["desc_mw_tank_30ft"] = "30 Fuss Tanktainer",
 		["desc_mw_tank_40ft"] = "40 Fuss Tanktainer",
-		
+
 		["desc_mw_wechselbruecke_26ft"] = "Wechselbrücke 24 Fuss",
 		["desc_mw_wechselpritsche_26ft"] = "Wechselpritsche 26 Fuss und 26 Fuss High Cube",
 		["desc_mw_wechselpritsche_45ft"] = "Wechselpritsche 45 Fuss und 45 Fuss High Cube",
 		["desc_mw_wechselpritsche_26ft_60s70s"] = "Wechselpritsche 26 Fuss 1960 und 1970",
 		["desc_mw_wechselpritsche_26ft_80s90s"] = "Wechselpritsche 26 Fuss 1980 und 1900",
-			
+
 		["desc_mw_1980"] = "Trailer 1980",
 		["desc_mw_1990"] = "Trailer 1990",
-			
+
 		["desc_mw_coolliner"] = "Trailer Coolliner",
 		["desc_mw_megaliner"] = "Trailer Megaliner",
-		["desc_mw_profiliner"] = "Trailer Profiliner",		
-		
+		["desc_mw_profiliner"] = "Trailer Profiliner",
+
 		},
 	en = {
 		["name_mod"] = "Cargo Asset Set",
 		["desc_mod"] = (
-				"[h2][b] Cargo Asset Set Version 1.55 [/b][/h2]\n" ..
+				"[h2][b] Cargo Asset Set Version 1.61 [/b][/h2]\n" ..
 				" \n" ..
 				"This mod adds to the game various assets such as containers, building and construction elements, and the Krone semi-trailer in various variants.\n" ..
 				"\n" ..
@@ -128,12 +128,12 @@ return {
 				"https://steamcommunity.com/sharedfiles/filedetails/?id=1962843709 \n" ..
 				"https://steamcommunity.com/sharedfiles/filedetails/?id=2146074181 \n" ..
 				" \n" ..
-				"[h1][b]NEW:[/b][/h1]\n" ..	
+				"[h1][b]NEW:[/b][/h1]\n" ..
 				"Thanks to Jay_, there are now containers from the 60s and 70s, as well as the 80s and 90s. \n" ..
 				"Some of them are even refrigerated containers.\n" ..
 				" \n" ..
 				" \n" ..
-				"[h2][b]Features:[/b][/h2]\n" ..		
+				"[h2][b]Features:[/b][/h2]\n" ..
 				"[list]" ..
 				"[*]3 Lod's \n" ..
 				"[*]DDS textures (with aging when used as loading in mods)\n" ..
@@ -141,18 +141,18 @@ return {
 				"[*]Cargo base set for other mods \n" ..
 				"[/list]"..
 				"\n" ..
-				"[h2][b]Authors:[/b][/h2]\n" ..		
+				"[h2][b]Authors:[/b][/h2]\n" ..
 				"[list]" ..
 				"[*][b]Models:[/b] [list][*]- Jansch \n" ..
 				"[*]- Jay\n" ..
 				"[*]- Kaleut\n" ..
 				"[*]- MaikC\n" ..
-				"[/list]"..	
+				"[/list]"..
 				"[*][b]Textures:[/b] [list][*]- Jay \n" ..
 				"[*]- Kaleut\n" ..
 				"[*]- Nando\n" ..
 				"[*][b]Script:[/b] KoA\n" ..
-				"[/list]"..		
+				"[/list]"..
 				"\n" ..
 				"[h1][b]Note to Content Creators:[/b][/h1]\n" ..
 				" \n" ..
@@ -169,9 +169,9 @@ return {
 		["name_asset1"] = "Container Set",
 		["desc_asset1"] = "20/40/45/53 feet Container",
 		["name_asset2"] = "Container High Cube Set",
-		["desc_asset2"] = "20 and 40 feet High Cube Container", 
+		["desc_asset2"] = "20 and 40 feet High Cube Container",
 		["name_asset3"] = "Tanktainer Set",
-		["desc_asset3"] = "20 and 26 feet Tank Container", 
+		["desc_asset3"] = "20 and 26 feet Tank Container",
 		["name_asset4"] = "Cargo Mix",
 		["desc_asset4"] = "Various building + construction items",
 		["name_size"] = "Size",
@@ -185,37 +185,37 @@ return {
 		["name_terrain"] = "Terrain adjustment",
 		["desc_cross_slope"] = "Cross slope",
 		["desc_longitudinal_slope"] = "Longitudinal slope",
-						
+
 		--- Container Neu ---
 		["desc_mw_20ft"] = "20 feet Container",
 		["desc_mw_30ft"] = "30 feet Container",
 		["desc_mw_40ft"] = "40 feet Container",
-		
+
 		["desc_mw_20ft_hc"] = "20 feet High Cube Container",
 		["desc_mw_40ft_hc"] = "40 feet High Cube Container",
 		["desc_mw_45ft_hc"] = "45 feet High Cube Container",
-		
+
 		["desc_mw_silo_30ft"] = "30 feet Silotainer",
-		
+
 		["desc_mw_tank_20ft"] = "20 feet Tanktainer",
 		["desc_mw_tank_26ft"] = "26 feet Tanktainer",
 		["desc_mw_tank_30ft"] = "30 feet Tanktainer",
 		["desc_mw_tank_40ft"] = "40 feet Tanktainer",
-		
+
 		["desc_mw_wechselbruecke_26ft"] = "Swap bridge 24 feet",
 		["desc_mw_wechselpritsche_26ft"] = "Swap body 26 feet und 26 feet High Cube",
 		["desc_mw_wechselpritsche_45ft"] = "Swap body 45 feet und 45 feet High Cube",
 		["desc_mw_wechselpritsche_26ft_60s70s"] = "Swap body 26 feet 1960 und 1970",
 		["desc_mw_wechselpritsche_26ft_80s90s"] = "Swap body 26 feet 1980 und 1900",
-				
+
 		["desc_mw_1980"] = "Trailer 1980",
 		["desc_mw_1990"] = "Trailer 1990",
-		
+
 		["desc_mw_coolliner"] = "Trailer Coolliner",
 		["desc_mw_megaliner"] = "Trailer Megaliner",
 		["desc_mw_profiliner"] = "Trailer Profiliner",
-		
-		
+
+
 		},
 }
 end
