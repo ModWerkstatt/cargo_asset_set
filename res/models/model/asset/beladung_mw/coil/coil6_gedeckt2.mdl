@@ -1,0 +1,57 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 0.64, 0.58, 0.64, },
+		bbMin = { -0.64, -0.58, -0.64, },		
+	},
+	collider = {
+		params = {
+			halfExtents = { 0.64, 0.58, 0.64, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = {"asset/beladung_mw/coil/coil_gedeckt2.mtl",},
+						mesh = "asset/beladung_mw/coil/coil6_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,			
+		}, 
+		{
+			node = {
+				children = {
+					{
+						materials = {"asset/beladung_mw/coil/coil_gedeckt2.mtl",},
+						mesh = "asset/beladung_mw/coil/coil6_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 700,			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,			
+		},
+		cost = {
+			price = 500,			
+		},		
+	},
+	version = 1,	
+}
+end
