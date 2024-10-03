@@ -24,7 +24,7 @@ return {
 				},
 				children = {
 					{
-						materials = {"asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_hc.mtl",},
+						materials = {"asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_hc_cma_cgm.mtl",},
 						mesh = "asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_lod0.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
 					}, 
@@ -42,7 +42,7 @@ return {
 				},
 				children = {
 					{
-						materials = {"asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_hc.mtl",},
+						materials = {"asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_hc_cma_cgm.mtl",},
 						mesh = "asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_lod1.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
 					}, 
@@ -60,7 +60,7 @@ return {
 				},
 				children = {
 					{
-						materials = {"asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_hc.mtl",},
+						materials = {"asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_hc_cma_cgm.mtl",},
 						mesh = "asset/container_mw/coolcontainer_45ft_hc/coolcontainer_45ft_lod2.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
 					}, 

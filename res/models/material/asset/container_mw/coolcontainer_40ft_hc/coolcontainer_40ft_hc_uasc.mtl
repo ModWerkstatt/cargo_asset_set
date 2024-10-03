@@ -25,7 +25,7 @@ return {
 		},
 		map_albedo = {
 			compressionAllowed = true,
-			fileName = "models/asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_uacs_albedo.dds",
+			fileName = "models/asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_uasc_albedo.dds",
 			magFilter = "LINEAR",
 			minFilter = "LINEAR_MIPMAP_LINEAR",
 			mipmapAlphaScale = 0,
