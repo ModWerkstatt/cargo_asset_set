@@ -25,7 +25,7 @@ return {
 				children = {
 					{
 						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_neelevat.mtl",},
-						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod0.msh
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod0.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.1, 1,},	
 					}, 
 					{
