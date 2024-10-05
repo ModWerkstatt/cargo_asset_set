@@ -26,7 +26,7 @@ return {
 					{
 						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_codognotto2.mtl",},
 						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod0.msh",
-						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.1, 1,},					
 					}, 
 					{
 						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_codognotto2.mtl",},
