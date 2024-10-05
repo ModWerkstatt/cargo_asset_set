@@ -33,7 +33,7 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 100,
+			visibleTo = 250,
 			
 		}, {
 			node = {
@@ -50,8 +50,8 @@ return {
 				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
 			},
 			static = false,
-			visibleFrom = 100,
-			visibleTo = 350,
+			visibleFrom = 250,
+			visibleTo = 550,
 			
 		}, {
 			node = {
@@ -68,7 +68,7 @@ return {
 				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
 			},
 			static = false,
-			visibleFrom = 350,
+			visibleFrom = 550,
 			visibleTo = 1500,
 			
 		}, 
