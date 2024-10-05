@@ -2,10 +2,10 @@ function data()
 return {
 	boundingInfo = {
 		bbMax = {
-			6.1, 1.21, 2.9, 
+			6.9, 1.21, 4, 
 		},
 		bbMin = {
-			-6.1, -1.21, 0, 
+			-6.9, -1.21, 0, 
 		},
 		
 	},
@@ -25,7 +25,23 @@ return {
 				children = {
 					{
 						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
-						mesh = "asset/trailer_mw/krone_profiliner/koegel_trailer_beladen_lod0.msh",
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_koegel_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_stuetze_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					--- Achse ---
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_achse_beladen_lod0.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
 					}, 
 				},
@@ -43,7 +59,23 @@ return {
 				children = {
 					{
 						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
-						mesh = "asset/trailer_mw/krone_profiliner/koegel_trailer_beladen_lod1.msh",
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_koegel_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_stuetze_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					--- Achse ---
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_achse_beladen_lod1.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
 					}, 
 				},
@@ -61,7 +93,7 @@ return {
 				children = {
 					{
 						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mtl",},
-						mesh = "asset/trailer_mw/krone_profiliner/koegel_trailer_beladen_lod2.msh",
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod2.msh",
 						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
 					}, 
 				},

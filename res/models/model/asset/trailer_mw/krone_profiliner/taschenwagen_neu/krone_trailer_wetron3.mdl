@@ -1,0 +1,123 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = {
+			6.9, 1.21, 4, 
+		},
+		bbMin = {
+			-6.9, -1.21, 0, 
+		},
+		
+	},
+	collider = {
+		params = {
+			
+		},
+		type = "MESH",
+		
+	},
+	lods = {
+		{
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_koegel_beladen_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_stuetze_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3, 1,},						
+					}, 
+					--- Achse ---
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_achse_beladen_lod0.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_koegel_beladen_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_stuetze_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.3, 1,},						
+					}, 
+					--- Achse ---
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_achse_beladen_lod1.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+			
+		}, {
+			node = {
+				animations = {
+					
+				},
+				children = {
+					{
+						materials = {"asset/trailer_mw/krone_profiliner/krone_trailer_wetron3.mtl",},
+						mesh = "asset/trailer_mw/krone_profiliner/trailer_lod2.msh",
+						transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},						
+					}, 
+				},
+				transf = {1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1,},				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,
+			
+		}, 
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1979,
+			yearTo = 0,
+			
+		},
+		cost = {
+			price = 500,
+			
+		},
+		
+	},
+	version = 1,
+	
+}
+end
