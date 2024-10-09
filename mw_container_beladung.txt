@@ -1165,4 +1165,28 @@
 	"asset/beladung_mw/coil/coil11_stahl5.mdl",
 	"asset/beladung_mw/coil/coil11_stahl6.mdl",
 
-        Schwerlast
+    Schwerlast
+	
+	"asset/beladung_mw/schwerlast/beton_rohr.mdl",
+	"asset/beladung_mw/schwerlast/brammen.mdl",
+	"asset/beladung_mw/schwerlast/brammen2.mdl",
+	"asset/beladung_mw/schwerlast/brammen3.mdl",
+	"asset/beladung_mw/schwerlast/brammen4.mdl",
+	"asset/beladung_mw/schwerlast/brammen5.mdl",
+	"asset/beladung_mw/schwerlast/brammen6.mdl",
+	"asset/beladung_mw/schwerlast/brammen7.mdl",
+	"asset/beladung_mw/schwerlast/brammen_2.mdl",
+	"asset/beladung_mw/schwerlast/brammen_3.mdl",
+	"asset/beladung_mw/schwerlast/brammen_4.mdl",
+	"asset/beladung_mw/schwerlast/brueckenteile.mdl",
+	"asset/beladung_mw/schwerlast/holzkiste.mdl",
+	"asset/beladung_mw/schwerlast/stahl.mdl",
+	"asset/beladung_mw/schwerlast/stahl_rohre.mdl",
+	"asset/beladung_mw/schwerlast/stahl_rohre2.mdl",
+	"asset/beladung_mw/schwerlast/traeger.mdl",
+	"asset/beladung_mw/schwerlast/traeger2.mdl",
+	"asset/beladung_mw/schwerlast/traeger3.mdl",
+	
+	
+	
+	
