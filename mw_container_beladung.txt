@@ -511,7 +511,7 @@
 	"asset/container_mw/container_40ft/container_40ft_tex.mdl",
 	"asset/container_mw/container_40ft/container_40ft_triton.mdl",
 	"asset/container_mw/container_40ft/container_40ft_uasc.mdl",
-	"asset/container_mw/container_40ft/container_40ft_uasc.mdl",
+	"asset/container_mw/container_40ft/container_40ft_uasc2.mdl",
 	"asset/container_mw/container_40ft/container_40ft_yang_ming.mdl",
 
 
@@ -994,7 +994,36 @@
 	"asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_winner.mdl",
 	"asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_gruber3.mdl",
 
---- Beladung ---
+
+	LKW
+
+	"asset/truck_mw/mb_mp/mb_mp.mdl",
+	"asset/truck_mw/mb_mp/mb_mp2.mdl",
+	"asset/truck_mw/mb_mp/mb_mp3.mdl",
+	"asset/truck_mw/mb_mp/mb_mp4.mdl",
+	"asset/truck_mw/mb_mp/mb_mp5.mdl",
+	"asset/truck_mw/mb_mp/mb_mp6.mdl",
+	"asset/truck_mw/mb_mp/mb_mp7.mdl",
+	"asset/truck_mw/mb_mp/mb_mp8.mdl",
+	"asset/truck_mw/mb_mp/mb_mp9.mdl",
+	"asset/truck_mw/mb_mp/mb_mp10.mdl",
+	"asset/truck_mw/mb_mp/mb_mp11.mdl",
+	"asset/truck_mw/mb_mp/mb_mp12.mdl",
+	"asset/truck_mw/mb_mp/mb_mp13.mdl",
+	"asset/truck_mw/mb_mp/mb_mp14.mdl",
+	"asset/truck_mw/mb_mp/mb_mp15.mdl",
+	"asset/truck_mw/mb_mp/mb_mp16.mdl",
+	"asset/truck_mw/mb_mp/mb_mp17.mdl",
+	"asset/truck_mw/mb_mp/mb_mp18.mdl",
+	"asset/truck_mw/mb_mp/mb_mp19.mdl",
+	"asset/truck_mw/mb_mp/mb_mp20.mdl",
+	"asset/truck_mw/mb_mp/mb_mp21.mdl",
+	"asset/truck_mw/mb_mp/mb_mp22.mdl",
+	"asset/truck_mw/mb_mp/mb_mp23.mdl",
+
+
+
+	--- Beladung ---
 
 	Coil Klein
 
@@ -1195,7 +1224,7 @@
 	"asset/beladung_mw/coil/coil11_stahl5.mdl",
 	"asset/beladung_mw/coil/coil11_stahl6.mdl",
 
-    Schwerlast
+    	Schwerlast
 	
 	"asset/beladung_mw/schwerlast/beton_rohr.mdl",
 	"asset/beladung_mw/schwerlast/brammen.mdl",
