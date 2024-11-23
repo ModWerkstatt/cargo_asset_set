@@ -571,7 +571,7 @@
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_china_shipping.mdl",
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_cma_cgm.mdl",
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_cma_cgm2.mdl",
-	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_eimksip.mdl",
+	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_eimskip.mdl",
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_evergreen.mdl",
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_geseaco.mdl",
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_hamburg_sued.mdl",
