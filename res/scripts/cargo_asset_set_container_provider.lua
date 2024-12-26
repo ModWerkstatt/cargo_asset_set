@@ -29,11 +29,13 @@ local cargo_asset_set_container_provider = {}
 
 --- Container/Trailer vor 2000 ---
 --cargo_asset_set_container_provider.getContainer_20ft_1965()
+--cargo_asset_set_container_provider.getContainer_20ft_26ft_1965()
 --cargo_asset_set_container_provider.getContainer_26ft_1965()
 --cargo_asset_set_container_provider.getContainer_40ft_1965()
 --cargo_asset_set_container_provider.getContainer_20ft_1965_cool()
 --cargo_asset_set_container_provider.getContainer_40ft_1965_cool()
 --cargo_asset_set_container_provider.getContainer_20ft_1982()
+--cargo_asset_set_container_provider.getContainer_20ft_26ft_1982()
 --cargo_asset_set_container_provider.getContainer_26ft_1982()
 --cargo_asset_set_container_provider.getContainer_40ft_1982()
 --cargo_asset_set_container_provider.getContainer_20ft_1982_cool()
@@ -710,7 +712,7 @@ function cargo_asset_set_container_provider.getContainer_40ft_cool_hc()
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_uasc.mdl",
     }
 end
-function cargo_asset_set_container_provider.getContainer_40ft_40ft_cool()
+function cargo_asset_set_container_provider.getContainer_40ft_45ft_cool()
     return {
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_apl.mdl",
 	"asset/container_mw/coolcontainer_40ft_hc/coolcontainer_40ft_hc_beacon.mdl",
@@ -1127,6 +1129,64 @@ function cargo_asset_set_container_provider.getContainer_20ft_1965()
 	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_maersk.mdl",
     }
 end
+function cargo_asset_set_container_provider.getContainer_20ft_26ft_1965()
+    return {
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_belgian.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_blank.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_deutrans.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_kline.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_mol.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerCti/containerCTI_cti.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerCti/containerCTI_danzas.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerCti/containerCTI_icsu.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_db1.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_db2.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_db3.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_dbBraun.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_act.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_cti.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_delmas.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_deutrans.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_deutrans2.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_isover.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_johnson.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_schenker.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_sillan.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_bremer.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_contrans.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_contrans2.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_hapag.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_ocl.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_acl.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_act.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_act2.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_act3.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_cunard.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_hapag.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_holland.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerOld/containerOld_maersk.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_blank.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_blank2.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_blank3.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_dachser.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_db.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_db2.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_db3.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_dietrich.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_emons.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_erwin.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_hamburger.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_jeschke.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_josefZaun.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_kuhne.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_moll.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_pfad.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_schenker.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_schenker2.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_weichelt.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_weser.mdl",
+    }
+end
 function cargo_asset_set_container_provider.getContainer_26ft_1965()
     return {
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_blank.mdl",
@@ -1236,6 +1296,106 @@ function cargo_asset_set_container_provider.getContainer_20ft_1982()
 	"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
     }
 end
+function cargo_asset_set_container_provider.getContainer_20ft_26ft_1982()
+    return {
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_alianca.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_choYangNeu.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_cosco.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_danzas.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_florens.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_klineNeu.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_nedlloyd.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_oocl.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tex.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_tiphook.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_yml.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_80s90s/doubleSided/container_20ftDouble_zim.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerCti/containerCti_iccu.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerCti/containerCti_ym.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_dbAlt.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_tfgBraun.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerDB/containerDB_tfgBlau.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_cast.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_choYang.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_contrans.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_coscoAlt.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_genstar.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_ocl.mdl",
+	"asset/container_jay/container80s90s/container_20ft/containerRibbed/containerRibbed_xtra.mdl",	
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_kline.mdl",
+	"asset/container_nando/container_20ft/repaints_jay_60s70s/doubleSided/container_20ftDouble_mol.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerCti/containerCTI_cti.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerCti/containerCTI_danzas.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_db1.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_db2.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_db3.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerDB/containerDB_dbBraun.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_act.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_cti.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_delmas.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_deutrans.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerRibbed/containerRibbed_deutrans2.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_contrans.mdl",
+	"asset/container_jay/container60s70s/container_20ft/containerGlatt/containerGlatt_contrans2.mdl",	
+	"asset/container_nando/container_20ft/container_20ft_po.mdl",
+	"asset/container_nando/container_20ft/container_20ft_hl.mdl",
+	"asset/container_nando/container_20ft/container_20ft_evergreen.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_audi.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_audi2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_bahntrans.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_bauhaus.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_bertschi.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_bertschi2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_bertschi3.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_blank1.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_blank2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_blank3.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_blank4.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_cargex.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_danzas.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_danzas2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_danzas3.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_dbKraft.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_dreier.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_dreier2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_dsbGods.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_eat.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_eberspacher.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_fenthols.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_fercam.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_foery.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_frey.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_giezendanner.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_giezendanner2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_hangartner.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_hangartner2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_hangartner3.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_jeschke.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_kieserling.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_kunze.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_lauritzen.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_leimgruber.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_lkwWalter.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_malenstein.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_oebbAudi.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_oebbHaus.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_panalpina.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_planzerBlau.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_planzerRot.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_rhenus.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_rosch.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_sae.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_schenker.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_senn.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_skandinavisk.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_skandinavisk2.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_skandiRot.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_vos.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_weichelt.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_winner.mdl",
+	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_wohlfahrt.mdl",
+    }
+end
 function cargo_asset_set_container_provider.getContainer_26ft_1982()
     return {
 	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_audi.mdl",
@@ -1294,7 +1454,7 @@ function cargo_asset_set_container_provider.getContainer_26ft_1982()
 	"asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_wohlfahrt.mdl",
     }
 end
-function cargo_asset_set_container_provider.getContainer_40ft_1965()
+function cargo_asset_set_container_provider.getContainer_40ft_1982()
     return {
 	"asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_alianca.mdl",
 	"asset/container_nando/container_40ft/repaints_jay_80s90s/container_40ft_cai.mdl",
@@ -1327,7 +1487,7 @@ function cargo_asset_set_container_provider.getContainer_40ft_1965()
 	"asset/container_nando/container_40ft/container_40ft_evergreen.mdl",	
     }
 end
-function cargo_asset_set_container_provider.getContainer_20ft_1965_cool()
+function cargo_asset_set_container_provider.getContainer_20ft_1982_cool()
     return {
 	"asset/container_jay/container80s90s/container_20ft/containerReefer/containerReefer_cosco.mdl",
 	"asset/container_jay/container80s90s/container_20ft/containerReefer/containerReefer_hapag.mdl",
@@ -1346,7 +1506,7 @@ function cargo_asset_set_container_provider.getContainer_20ft_1965_cool()
 	"asset/container_jay/container60s70s/container_20ft/containerHole/containerHole_hamburg2.mdl",
     }
 end
-function cargo_asset_set_container_provider.getContainer_40ft_1965_cool()
+function cargo_asset_set_container_provider.getContainer_40ft_1982_cool()
     return {
 	"asset/container_jay/container80s90s/container_40ft/containerReeferOld/containerReeferOld_acl.mdl",
 	"asset/container_jay/container80s90s/container_40ft/containerReeferOld/containerReeferOld_hapag.mdl",
