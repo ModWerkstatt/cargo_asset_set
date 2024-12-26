@@ -723,7 +723,6 @@
 	"asset/container_mw/pritsche_45ft/pritsche_45ft_nothegger.mdl",
 	"asset/container_mw/pritsche_45ft/pritsche_45ft_walter.mdl",
 
-
 	Wechselpritsche 45ft High Cube
 
 	"asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ambrogio.mdl",
@@ -746,48 +745,6 @@
 	"asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_tts.mdl",
 	"asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_tts2.mdl",
 	"asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_wetron.mdl",
-
-
-	Silocontainer 30ft
-
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi2.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi3.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn2.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_danzas.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_nb.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_schenker.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_sitra.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_van_den_bosch.mdl",
-	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_vos.mdl",
-
-
-	Tankcontainer 30ft
-
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi2.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_combipass.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_nb.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea2.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra2.mdl",
-	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_vos.mdl",
-
-
-	Tankcontainer 40ft
-
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bertschi.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bertschi2.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bruhn.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_eimskip.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_greiwing.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_hoyer.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_tradelog.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_van_den_bosch.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_van_den_bosch2.mdl",
-	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_weiss.mdl",
 
 	Tankcontainer 20ft
 
@@ -812,7 +769,6 @@
 	"asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch3.mdl",
 	"asset/container_mw/tanktainer_20ft/tanktainer_20ft_vtg.mdl",
 
-
 	Tankcontainer 26ft
 
 	"asset/container_mw/tanktainer_26ft/tanktainer_26ft_bertschi.mdl",
@@ -834,7 +790,6 @@
 	"asset/container_mw/tanktainer_26ft/tanktainer_26ft_van_den_bosch2.mdl",
 	"asset/container_mw/tanktainer_26ft/tanktainer_26ft_vtg.mdl",
 
-
 	Tankcontainer 26ft v2
 
 	"asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_bertschi.mdl",
@@ -846,6 +801,44 @@
 	"asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_rinnen.mdl",
 	"asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_vtg.mdl",
 
+	Silocontainer 30ft
+
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi2.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi3.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn2.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_danzas.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_nb.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_schenker.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_sitra.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_van_den_bosch.mdl",
+	"asset/container_mw/silocontainer_30ft/silocontainer_30ft_vos.mdl",
+
+	Tankcontainer 30ft
+
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi2.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_combipass.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_nb.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea2.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra2.mdl",
+	"asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_vos.mdl",
+
+	Tankcontainer 40ft
+
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bertschi.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bertschi2.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bruhn.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_eimskip.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_greiwing.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_hoyer.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_tradelog.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_van_den_bosch.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_van_den_bosch2.mdl",
+	"asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_weiss.mdl",
 
 	Wechselbruecke 24ft
 
@@ -861,14 +854,12 @@
 	"asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_ids.mdl",
 	"asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_schenker.mdl",
 
-
 	Wechselbruecke 26ft High Cube
 
 	"asset/container_mw/wechselbruecke_26ft_hc/wechselbruecke_26ft_hc_wetron.mdl",
 	"asset/container_mw/wechselbruecke_26ft_hc/wechselbruecke_26ft_hc_wetron2.mdl",
 
-
-	Krone Kuehltrailer
+	Krone Mega Kuehltrailer
 
 	"asset/trailer_mw/krone_coolliner/krone_coolliner_dissegna.mdl",
 	"asset/trailer_mw/krone_coolliner/krone_coolliner_ekol.mdl",
@@ -878,7 +869,6 @@
 	"asset/trailer_mw/krone_coolliner/krone_coolliner_westerman.mdl",
 	"asset/trailer_mw/krone_coolliner/krone_coolliner_wetron.mdl",
 	
-
 	Krone Mega Liner
 
 	"asset/trailer_mw/krone_megaliner/krone_megaliner_ansorge.mdl",
@@ -924,7 +914,6 @@
 	"asset/trailer_mw/krone_megaliner/krone_megaliner_westerman.mdl",
 	"asset/trailer_mw/krone_megaliner/krone_megaliner_wetron.mdl",
 	"asset/trailer_mw/krone_megaliner/krone_megaliner_winner.mdl",
-
 
 	Krone Profiliner
 
@@ -993,7 +982,6 @@
 	"asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_wetron.mdl",
 	"asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_winner.mdl",
 	"asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_gruber3.mdl",
-
 
 	LKW
 
