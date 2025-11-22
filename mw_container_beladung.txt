@@ -67,7 +67,7 @@
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_josefZaun.mdl",
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_kuhne.mdl",
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_moll.mdl",
-	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_pfad.mdl",
+	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_pfab.mdl",
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_schenker.mdl",
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_schenker2.mdl",
 	"asset/container_jay/pritschen/pritschenSehrAlt/beladung/pritscheSehrAlt_weichelt.mdl",
