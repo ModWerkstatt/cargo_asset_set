@@ -1,0 +1,57 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 0.819999992847442626953125, 0.61000001430511474609375, 0.819999992847442626953125, },
+			bbMin = { -0.819999992847442626953125, -0.61000001430511474609375, -0.819999992847442626953125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 0.819999992847442626953125, 0.61000001430511474609375, 0.819999992847442626953125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/coil_stahl3.mtl", },
+							mesh = "msh/coil5_lod0.msh",
+							name = "coil10_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/coil_stahl3.mtl", },
+							mesh = "msh/coil5_lod1.msh",
+							name = "coil10_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 700,
+			},
+		},
+		metadata = { 
+			categoryList = { 
+				categories = { 
+				"::/cargos/sheet_metal/sheet_metal.cargo#COIL" 
+				},
+			},
+		},
+		version = 2,
+	}
+end

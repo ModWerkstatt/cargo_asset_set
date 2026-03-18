@@ -1,0 +1,122 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.900000095367431640625, 1.21000003814697265625, 4, },
+			bbMin = { -6.900000095367431640625, -1.21000003814697265625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.900000095367431640625, 1.21000003814697265625, 2, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_lod0.msh",
+							name = "trailer_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.100000001490116119384765625, 1, },
+						},
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_koegel_beladen_lod0.msh",
+							name = "trailer_koegel_beladen_lod0_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_stuetze_lod0.msh",
+							name = "trailer_stuetze_lod0_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.300000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_achse_beladen_lod0.msh",
+							name = "trailer_achse_beladen_lod0_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_lod1.msh",
+							name = "trailer_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_koegel_beladen_lod1.msh",
+							name = "trailer_koegel_beladen_lod1_2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_stuetze_lod1.msh",
+							name = "trailer_stuetze_lod1_3",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.300000011920928955078125, 1, },
+						},
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_achse_beladen_lod1.msh",
+							name = "trailer_achse_beladen_lod1_4",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/trailer_generic.mtl", },
+							mesh = "msh/trailer_lod2.msh",
+							name = "trailer_lod2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			categoryList = { 
+				categories = { 
+				"::/cargos/beverages/beverages.cargo#TRAILER45FT", 
+				"::/cargos/books/books.cargo#TRAILER45FT", 
+				"::/cargos/bricks/bricks.cargo#TRAILER45FT", 
+				"::/cargos/clothes/clothes.cargo#TRAILER45FT", 
+				"::/cargos/fabric/fabric.cargo#TRAILER45FT", 
+				"::/cargos/fertilizer/fertilizer.cargo#TRAILER45FT", 
+				"::/cargos/furniture/furniture.cargo#TRAILER45FT", 
+				"::/cargos/glass/glass.cargo#TRAILER45FT", 
+				"::/cargos/machines/machines.cargo#TRAILER45FT", 
+				"::/cargos/paper/paper.cargo#TRAILER45FT", 
+				"::/cargos/plastic/plastic.cargo#TRAILER45FT", 
+				"::/cargos/tinned_food/tinned_food.cargo#TRAILER45FT", 
+				"::/cargos/tires/tires.cargo#TRAILER45FT", 
+				"::/cargos/tools/tools.cargo#TRAILER45FT", 
+				"::/cargos/wool/wool.cargo#TRAILER45FT", },
+			},
+		},
+		version = 2,
+	}
+end

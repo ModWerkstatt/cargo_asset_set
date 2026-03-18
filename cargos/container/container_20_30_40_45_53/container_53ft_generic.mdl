@@ -1,0 +1,90 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.06000041961669921875, 1.21000003814697265625, 2.599999904632568359375, },
+			bbMin = { -8.06000041961669921875, -1.21000003814697265625, 0, },
+		},lider = { 
+			params = { 
+				halfExtents = { 8.06000041961669921875, 1.21000003814697265625, 1.2999999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2999999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/container_generic_53.mtl", },
+							mesh = "msh/container_53ft_lod_0.msh",
+							name = "container_53ft_lod_0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/container_generic_53.mtl", },
+							mesh = "msh/container_53ft_lod_1.msh",
+							name = "container_53ft_lod_1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/container_generic_53.mtl", },
+							mesh = "msh/container_53ft_lod_2.msh",
+							name = "container_53ft_lod_2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+metadata = { 
+			availability = { 
+				yearFrom = 1975,
+				yearTo = 0,
+			}, 
+			categoryList = { 
+				categories = { 
+				"::/cargos/beverages/beverages.cargo#CONT53FT", 
+				"::/cargos/books/books.cargo#CONT53FT", 
+				"::/cargos/bricks/bricks.cargo#CONT53FT", 
+				"::/cargos/clothes/clothes.cargo#CONT53FT", 
+				"::/cargos/fabric/fabric.cargo#CONT53FT", 
+				"::/cargos/fertilizer/fertilizer.cargo#CONT53FT", 
+				"::/cargos/furniture/furniture.cargo#CONT53FT", 
+				"::/cargos/glass/glass.cargo#CONT53FT", 
+				"::/cargos/machines/machines.cargo#CONT53FT", 
+				"::/cargos/paper/paper.cargo#CONT53FT", 
+				"::/cargos/plastic/plastic.cargo#CONT53FT", 
+				"::/cargos/tinned_food/tinned_food.cargo#CONT53FT", 
+				"::/cargos/tires/tires.cargo#CONT53FT", 
+				"::/cargos/tools/tools.cargo#CONT53FT", 
+				"::/cargos/vehicles/vehicles.cargo#CONT53FT", 
+				"::/cargos/wool/wool.cargo#CONT53FT", },
+			},
+		},
+		version = 2,
+	}
+end

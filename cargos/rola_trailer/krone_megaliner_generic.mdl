@@ -1,0 +1,86 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.099999904632568359375, 1.21000003814697265625, 2.900000095367431640625, },
+			bbMin = { -6.099999904632568359375, -1.21000003814697265625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.099999904632568359375, 1.21000003814697265625, 1.4500000476837158203125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.4500000476837158203125, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/krone_megaliner_generic.mtl", },
+							mesh = "msh/krone_trailer_mega_beladen_lod0.msh",
+							name = "krone_trailer_mega_beladen_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/krone_megaliner_generic.mtl", },
+							mesh = "msh/krone_trailer_mega_beladen_lod1.msh",
+							name = "krone_trailer_mega_beladen_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/krone_megaliner_generic.mtl", },
+							mesh = "msh/krone_trailer_mega_beladen_lod2.msh",
+							name = "krone_trailer_mega_beladen_lod2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			categoryList = { 
+				categories = { 
+				"::/cargos/beverages/beverages.cargo#TRAILER45FT_ML", 
+				"::/cargos/books/books.cargo#TRAILER45FT_ML", 
+				"::/cargos/bricks/bricks.cargo#TRAILER45FT_ML", 
+				"::/cargos/clothes/clothes.cargo#TRAILER45FT_ML", 
+				"::/cargos/fabric/fabric.cargo#TRAILER45FT_ML", 
+				"::/cargos/fertilizer/fertilizer.cargo#TRAILER45FT_ML", 
+				"::/cargos/furniture/furniture.cargo#TRAILER45FT_ML", 
+				"::/cargos/glass/glass.cargo#TRAILER45FT_ML", 
+				"::/cargos/machines/machines.cargo#TRAILER45FT_ML", 
+				"::/cargos/paper/paper.cargo#TRAILER45FT_ML", 
+				"::/cargos/plastic/plastic.cargo#TRAILER45FT_ML", 
+				"::/cargos/tinned_food/tinned_food.cargo#TRAILER45FT_ML", 
+				"::/cargos/tires/tires.cargo#TRAILER45FT_ML", 
+				"::/cargos/tools/tools.cargo#TRAILER45FT_ML", 
+				"::/cargos/wool/wool.cargo#TRAILER45FT_ML", },
+			},
+		},
+		version = 2,
+	}
+end

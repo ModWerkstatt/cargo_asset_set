@@ -1,0 +1,71 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.9664134979248046875, 1.20795166492462158203125, 2.8875615596771240234375, },
+			bbMin = { -3.96617603302001953125, -1.20795166492462158203125, -0.02140994556248188018798828125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.099999904632568359375, 1.21000003814697265625, 1.4500000476837158203125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.4500000476837158203125, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/pritsche_26ft_hc_generic.mtl", },
+							mesh = "msh/wechsel_26ft_hc_lod0.msh",
+							name = "wechsel_26ft_hc_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/pritsche_26ft_hc_generic.mtl", },
+							mesh = "msh/wechsel_26ft_hc_lod1.msh",
+							name = "wechsel_26ft_hc_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 350,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/pritsche_26ft_hc_generic.mtl", },
+							mesh = "msh/wechsel_26ft_hc_lod2.msh",
+							name = "wechsel_26ft_hc_lod2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 350,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			categoryList = { 
+				categories = { "::/cargos/beverages/beverages.cargo#SWBD26FT", "::/cargos/books/books.cargo#SWBD26FT", "::/cargos/bricks/bricks.cargo#SWBD26FT", "::/cargos/clothes/clothes.cargo#SWBD26FT", "::/cargos/fabric/fabric.cargo#SWBD26FT", "::/cargos/fertilizer/fertilizer.cargo#SWBD26FT", "::/cargos/furniture/furniture.cargo#SWBD26FT", "::/cargos/glass/glass.cargo#SWBD26FT", "::/cargos/machines/machines.cargo#SWBD26FT", "::/cargos/paper/paper.cargo#SWBD26FT", "::/cargos/plastic/plastic.cargo#SWBD26FT", "::/cargos/tinned_food/tinned_food.cargo#SWBD26FT", "::/cargos/tires/tires.cargo#SWBD26FT", "::/cargos/tools/tools.cargo#SWBD26FT", "::/cargos/wool/wool.cargo#SWBD26FT", },
+			},
+		},
+		version = 2,
+	}
+end

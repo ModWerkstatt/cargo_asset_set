@@ -1,0 +1,17 @@
+{
+    "dependencies": null,
+    "incompatibilities": null,
+    "modId": "mcmw_cont_asset",
+    "options": null,
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    }
+}

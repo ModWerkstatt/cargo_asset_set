@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 2328,
+					offset = 12580,
+				},
+				position = {
+					count = 2328,
+					offset = 7924,
+				},
+				tangent = {
+					count = 2328,
+					offset = 5596,
+				},
+				uv0 = {
+					count = 2328,
+					offset = 10252,
+				},
+			},
+			materials = {
+				"vehicle/train/maikc_br015_arma.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 156,
+			numComp = 3,
+			offset = 5440,
+		},
+		position = {
+			count = 2424,
+			numComp = 3,
+			offset = 2080,
+		},
+		tangent = {
+			count = 2080,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 936,
+			numComp = 2,
+			offset = 4504,
+		},
+	},
+}
+end

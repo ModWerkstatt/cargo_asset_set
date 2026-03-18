@@ -1,0 +1,71 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.621728420257568359375, 1.1885135173797607421875, 2.8500788211822509765625, },
+			bbMin = { -3.599514007568359375, -1.1885135173797607421875, -0.010889478027820587158203125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.099999904632568359375, 1.21000003814697265625, 1.4500000476837158203125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.4500000476837158203125, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/wechselbruecke_24ft_generic.mtl", },
+							mesh = "msh/bruecke_24ft_lod0.msh",
+							name = "bruecke_24ft_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.070000000298023223876953125, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/wechselbruecke_24ft_generic.mtl", },
+							mesh = "msh/bruecke_24ft_lod1.msh",
+							name = "bruecke_24ft_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 350,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/wechselbruecke_24ft_generic.mtl", },
+							mesh = "msh/bruecke_24ft_lod2.msh",
+							name = "bruecke_24ft_lod2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 350,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			categoryList = { 
+				categories = { "::/cargos/beverages/beverages.cargo#SWBD24FT", "::/cargos/books/books.cargo#SWBD24FT", "::/cargos/bricks/bricks.cargo#SWBD24FT", "::/cargos/clothes/clothes.cargo#SWBD24FT", "::/cargos/fabric/fabric.cargo#SWBD24FT", "::/cargos/fertilizer/fertilizer.cargo#SWBD24FT", "::/cargos/furniture/furniture.cargo#SWBD24FT", "::/cargos/glass/glass.cargo#SWBD24FT", "::/cargos/machines/machines.cargo#SWBD24FT", "::/cargos/paper/paper.cargo#SWBD24FT", "::/cargos/plastic/plastic.cargo#SWBD24FT", "::/cargos/tinned_food/tinned_food.cargo#SWBD24FT", "::/cargos/tires/tires.cargo#SWBD24FT", "::/cargos/tools/tools.cargo#SWBD24FT", "::/cargos/wool/wool.cargo#SWBD24FT", },
+			},
+		},
+		version = 2,
+	}
+end

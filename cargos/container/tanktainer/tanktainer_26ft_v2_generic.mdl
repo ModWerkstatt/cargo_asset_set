@@ -1,0 +1,80 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 3.9700000286102294921875, 1.21000003814697265625, 2.599999904632568359375, },
+			bbMin = { -3.9700000286102294921875, -1.21000003814697265625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 3.9700000286102294921875, 1.21000003814697265625, 1.2999999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2999999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tanktainer_26ft_generic.mtl", "mat/tanktainer_26ft_generic_gitter.mtl", },
+							mesh = "msh/tanktainer_26ft_v2_lod_0.msh",
+							name = "tanktainer_26ft_v2_lod_0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tanktainer_26ft_generic.mtl", },
+							mesh = "msh/tanktainer_26ft_v2_lod_1.msh",
+							name = "tanktainer_26ft_v2_lod_1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tanktainer_26ft_generic.mtl", },
+							mesh = "msh/tanktainer_26ft_lod_2.msh",
+							name = "tanktainer_26ft_lod_2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1960,
+				yearTo = 0,
+			}, 
+			categoryList = { 
+				categories = { 
+				"::/cargos/chemicals/chemicals.cargo#CONT26FT",
+				"::/cargos/crude_oil/crude_oil.cargo#CONT26FT",
+				"::/cargos/dyes/dyes.cargo#CONT26FT",
+				"::/cargos/rubber/rubber.cargo#CONT26FT",
+				"::/cargos/fuel/fuel.cargo#CONT26FT",},
+			},
+		},
+		version = 2,
+	}
+end

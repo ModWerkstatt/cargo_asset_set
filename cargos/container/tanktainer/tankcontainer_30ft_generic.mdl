@@ -1,0 +1,80 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 6.099999904632568359375, 1.21000003814697265625, 2.900000095367431640625, },
+			bbMin = { -6.099999904632568359375, -1.21000003814697265625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 6.099999904632568359375, 1.21000003814697265625, 1.4500000476837158203125, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.4500000476837158203125, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tankcontainer_30ft_generic.mtl", },
+							mesh = "msh/tankcontainer_30ft_lod0.msh",
+							name = "tankcontainer_30ft_lod0_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tankcontainer_30ft_generic.mtl", },
+							mesh = "msh/tankcontainer_30ft_lod1.msh",
+							name = "tankcontainer_30ft_lod1_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 350,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/tankcontainer_30ft_generic.mtl", },
+							mesh = "msh/tankcontainer_30ft_lod2.msh",
+							name = "tankcontainer_30ft_lod2_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 350,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1979,
+				yearTo = 0,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/chemicals/chemicals.cargo#CONT30FT", 
+				"::/cargos/crude_oil/crude_oil.cargo#CONT30FT", 
+				"::/cargos/dyes/dyes.cargo#CONT30FT", 
+				"::/cargos/rubber/rubber.cargo#CONT30FT", 
+				"::/cargos/fuel/fuel.cargo#CONT30FT", },
+			},
+		},
+		version = 2,
+	}
+end
