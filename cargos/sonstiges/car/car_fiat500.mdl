@@ -196,7 +196,8 @@ return {
 			},
 			categoryList = { 
 				categories = { 
-				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE", },
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" 
+				},
 			},
 			colorConfig = { 
 				configs = {
