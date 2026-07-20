@@ -194,6 +194,10 @@ return {
 				yearFrom = 1963,
 				yearTo = 0,
 			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE", },
+			},
 			colorConfig = { 
 				configs = {
 					{
