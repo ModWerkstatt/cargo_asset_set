@@ -1,0 +1,224 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.43, 4.36672, 3.16571, },
+			bbMin = { -1.96776, -4.46673, -4.28491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.78539, 0.7659, 0.898781, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.14081, 1.14081, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.66993, 0.539332, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.539332, 1.66993, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.11165, 1.11165, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0718092, 0.58549, 1.11641, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.25284, -0.14608, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0.0718092, -0.43941, -0.13643, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.146079, 1.25284, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.00999, 0.624071, 0.276691, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.00999, -0.606057, 0.304185, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.02245, 0, 0.276691, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 55.7407,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", "::/vehicle/car/trabant_601/mat/trabant_glass_lod.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass_lod.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0718092, 0.58549, 1.11641, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.25284, -0.14608, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/trabant_601/mat/trabant_glass_lod.mtl", },
+									mesh = "::/vehicle/car/trabant_601/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0.0718092, -0.43941, -0.13643, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.146079, 1.25284, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.00999, 0.624071, 0.276691, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.00999, -0.606057, 0.304185, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.02245, 0, 0.276691, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 55.7407,
+				visibleTo = 167.222,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/trabant_601/mat/trabant.mtl", },
+							mesh = "::/vehicle/car/trabant_601/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 167.222,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1975,
+				yearTo = 2005,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.198131, 0.223513, 0.247059, },
+					},
+					{
+						{ 0.645098, 0.629853, 0.56288, },
+					},
+					{
+						{ 0.241176, 0.0845718, 0.0685698, },
+					},
+					{
+						{ 0.319204, 0.401961, 0.153691, },
+					},
+					{
+						{ 0.517647, 0.457096, 0.284198, },
+					},
+					{
+						{ 0.782499, 0.807843, 0.784373, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 1.60301, 0.7659, 1.79662, },
+				bbMin = { -1.96776, -0.7659, -0.000940174, },
+			},
+		},
+		version = 2,
+	}
+end

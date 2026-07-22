@@ -1,0 +1,292 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.48507, 4.51502, 3.37484, },
+			bbMin = { -2.42331, -4.51843, -4.10414, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.43124, 1.0371, 0.779669, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.00793433, -0.00170374, 0.776926, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/headlight_glass_lod0.msh",
+									name = "headlight_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.15265, -0.00170387, 0.701485, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/brakelights_glass_lod0.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.15785, -0.00170385, 0.87982, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.02055, -0.00301039, 1.23869, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5263, -0.684898, 1.19813, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.810041, -0.00301053, 1.2048, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5263, 0.681491, 1.19813, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.704541, -0.0727883, 0.180763, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.03513, 0.799497, 0.976772, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.555446, -0.0911131, 0.184696, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.120105, 0.780507, 1.05581, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.710872, 0.103536, 0.224215, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.04146, -0.833653, 0.93332, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.530126, 0.0807157, 0.154416, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.145424, -0.773517, 1.08609, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.53499, -0.81274, 0.324023, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.53499, 0.809334, 0.324023, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25993, -0.00170385, 0.316788, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 67.4947,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", "::/vehicle/car/octavia/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.704541, -0.0727883, 0.180763, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.03513, 0.799497, 0.976772, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.555446, -0.0911131, 0.184696, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.120105, 0.780507, 1.05581, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.710872, 0.103536, 0.224215, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.04146, -0.833653, 0.93332, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/octavia/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/octavia/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, -1.62921e-07, 1, 0, 0, -1, -1.62921e-07, 0, -0.530126, 0.0807157, 0.154416, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.145424, -0.773517, 1.08609, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.53499, -0.81274, 0.324023, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.53499, 0.809334, 0.324023, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.25993, -0.00170385, 0.316788, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 67.4947,
+				visibleTo = 202.484,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/octavia/mat/body.mtl", },
+							mesh = "::/vehicle/car/octavia/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 202.484,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2013,
+				yearTo = 2043,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.291546, 0.299389, 0.307843, },
+					},
+					{
+						{ 0.0887236, 0.0921569, 0.0917349, },
+					},
+					{
+						{ 0.220219, 0.289521, 0.358824, },
+					},
+					{
+						{ 0.413725, 0.402402, 0.373164, },
+					},
+					{
+						{ 0.241176, 0.101901, 0.0969435, },
+					},
+					{
+						{ 0.194118, 0.178258, 0.175087, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.43917, 1.0354, 1.55659, },
+				bbMin = { -2.42331, -1.03881, -0.00274295, },
+			},
+		},
+		version = 2,
+	}
+end

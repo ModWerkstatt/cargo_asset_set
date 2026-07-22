@@ -1,0 +1,280 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.4477, 4.44673, 3.16571, },
+			bbMin = { -2.66731, -4.44673, -4.28491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.66731, 0.987218, 0.745828, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.935682, 0.817568, -0.840484, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.935682, -0.817568, 0.840484, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.147801, 0.776657, -0.842241, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.147801, -0.776657, 0.842241, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.935682, -0.817568, -0.840484, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.935682, 0.817568, 0.840484, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.147801, -0.776657, -0.842241, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.147801, 0.776657, 0.842241, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.26383, 0, 0.350094, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.66707, 0.616205, 0.350094, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.66707, -0.616205, 0.350094, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 67.7712,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", "::/vehicle/car/caprice/mat/caprice_glass_lod.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass_lod.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.935682, -0.817568, 0.840484, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass_lod.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.147801, 0.776657, -0.842241, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.147801, -0.776657, 0.842241, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass_lod.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.935682, -0.817568, -0.840484, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.935682, 0.817568, 0.840484, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/caprice/mat/caprice_glass_lod.mtl", },
+									mesh = "::/vehicle/car/caprice/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.147801, -0.776657, -0.842241, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.147801, 0.776657, 0.842241, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.26383, 0, 0.350094, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.66707, 0.616205, 0.350094, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.66707, -0.616205, 0.350094, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 67.7712,
+				visibleTo = 203.314,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/caprice/mat/caprice_body.mtl", },
+							mesh = "::/vehicle/car/caprice/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 203.314,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1986,
+				yearTo = 2016,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.528997, 0.659077, 0.713725, },
+					},
+					{
+						{ 0.682353, 0.629328, 0.545882, },
+					},
+					{
+						{ 0.854902, 0.85127, 0.83311, },
+					},
+					{
+						{ 0.184314, 0.13182, 0.0831219, },
+					},
+					{
+						{ 0.468627, 0.468627, 0.468627, },
+					},
+					{
+						{ 0.234048, 0.310696, 0.34902, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.66731, 0.987218, 1.49394, },
+				bbMin = { -2.66731, -0.987218, 0.00228354, },
+			},
+		},
+		version = 2,
+	}
+end

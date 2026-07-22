@@ -1,0 +1,374 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.76, 4.45673, 3.18571, },
+			bbMin = { -2.05622, -4.45673, -4.26491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.05749, 0.982404, 0.71524, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/foglights_glass_lod0.msh",
+									name = "foglights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/backlights_glass_lod0.msh",
+									name = "backlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/foglights_1_lod0.msh",
+							name = "foglights_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/body.mtl", },
+									mesh = "::/vehicle/car/polo/msh/w1_lod0.msh",
+									name = "w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.00173202, -0.00124452, -0.00141822, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/w1_brake_lod0.msh",
+							name = "w1_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22, 0.748, 0.316, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/body.mtl", },
+									mesh = "::/vehicle/car/polo/msh/w2_lod0.msh",
+									name = "w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00326798, -0.00101456, -0.00241822, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/w2_brake_lod0.msh",
+							name = "w2_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.225, -0.743, 0.317, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.34856, 0.0013704, 0.314582, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 61.4804,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/foglights_glass_lod1.msh",
+									name = "foglights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/backlights_glass_lod1.msh",
+									name = "backlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/headlights_glass_lod1.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_bck_lod1.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_frt_lod1.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_lft_lod1.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/polo/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/polo/msh/glass_rgt_lod1.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/foglights_1_lod1.msh",
+							name = "foglights_1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22173, 0.746755, 0.314582, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.22173, -0.744015, 0.314582, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.34856, 0.0013704, 0.314582, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 61.4804,
+				visibleTo = 184.441,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/polo/mat/body.mtl", },
+							mesh = "::/vehicle/car/polo/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 184.441,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2018,
+				yearTo = 0,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.65098, 0.649199, 0.644598, },
+					},
+					{
+						{ 0.135294, 0.135294, 0.135294, },
+					},
+					{
+						{ 0.145329, 0.224639, 0.370588, },
+					},
+					{
+						{ 0.533333, 0.103495, 0.0397386, },
+					},
+					{
+						{ 0.386275, 0.37213, 0.359008, },
+					},
+					{
+						{ 0.235955, 0.243881, 0.262745, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.05875, 0.982404, 1.43125, },
+				bbMin = { -2.05622, -0.982403, 0.000768155, },
+			},
+		},
+		version = 2,
+	}
+end

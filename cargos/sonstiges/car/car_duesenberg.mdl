@@ -1,0 +1,288 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.24711, 4.34256, 3.56043, },
+			bbMin = { -2.53102, -4.07089, -3.89019, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.50171, 0.895611, 0.764668, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0293121, 0, 0.766503, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.0235723, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.206134, 0, 1.27605, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.76547, -1.63913e-07, 1.28349, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.35006, 0.00525993, -0.193278, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.172493, -0.562228, 1.46582, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.325948, 0.0298146, 0.278382, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.579702, -0.586783, 0.994158, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.360288, -0.0171102, -0.186784, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.18272, 0.574078, 1.45932, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.32364, -0.0329894, 0.278349, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.58201, 0.589957, 0.994192, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.89417, 0.729558, 0.379511, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.89417, -0.729554, 0.379511, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.71925, 0, 0.379511, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 62.5665,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/emissive/car_all_lights.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/backlights_lod1.msh",
+							name = "backlights",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.29064, 4.76837e-07, 0.764202, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", "::/vehicle/car/duesenberg/mat/duesenberg_glass_lod.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.0235723, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass_lod.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.35006, 0.00525993, -0.193278, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.172493, -0.562228, 1.46582, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass_lod.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.35006, 0.00525993, -0.193278, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.172493, -0.562228, 1.46582, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass_lod.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.325948, 0.0298146, 0.278382, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.579702, -0.586783, 0.994158, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass_lod.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.360288, -0.0171102, -0.186784, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.18272, 0.574078, 1.45932, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/duesenberg/mat/duesenberg_glass_lod.mtl", },
+									mesh = "::/vehicle/car/duesenberg/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.32364, -0.0329894, 0.278349, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.58201, 0.589957, 0.994192, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.89417, 0.729558, 0.379511, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.89417, -0.729554, 0.379511, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.71925, 0, 0.379511, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 62.5665,
+				visibleTo = 187.699,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/duesenberg/mat/duesenberg.mtl", },
+							mesh = "::/vehicle/car/duesenberg/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.206134, 0, 1.27605, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 187.699,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1930,
+				yearTo = 1960,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.582353, 0.479585, 0.502386, },
+					},
+					{
+						{ 0.77451, 0.748547, 0.707689, },
+					},
+					{
+						{ 0.684314, 0.221974, 0.116736, },
+					},
+					{
+						{ 0.349689, 0.547059, 0.437477, },
+					},
+					{
+						{ 0.431084, 0.494292, 0.586275, },
+					},
+					{
+						{ 0.605882, 0.550838, 0.44075, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.47239, 0.895611, 1.53117, },
+				bbMin = { -2.53102, -0.895611, 0.00183558, },
+			},
+		},
+		version = 2,
+	}
+end

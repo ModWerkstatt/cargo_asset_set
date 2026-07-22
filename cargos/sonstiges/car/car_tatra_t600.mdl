@@ -1,0 +1,292 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.12625, 4.45673, 3.19221, },
+			bbMin = { -2.2403, -4.45672, -4.25841, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.27238, 0.835027, 0.75561, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0320797, 5.96046e-07, 1.70128e-07, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/glass_bck_rgt_lod0.msh",
+									name = "glass_bck_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51983, -0.173176, 1.1226, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/glass_bck_lft_lod0.msh",
+									name = "glass_bck_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.51983, 0.173176, 1.1226, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.689836, -0.663268, 1.11883, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.903777, 8.9407e-07, 1.21615, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.306145, 2.98023e-07, 1.16129, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.689837, 0.663268, 1.11883, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.389541, -0.0579334, 0.214371, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.99342, 0.70376, 0.9738, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.379016, -0.14652, 0.283523, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2192, 0.80895, 0.8899, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.407801, 0.102473, 0.247911, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.01168, -0.7483, 0.94026, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.378716, 0.146769, 0.281723, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2189, -0.8092, 0.8917, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.52333, 0.630499, 0.336498, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.52333, -0.630499, 0.336498, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.17655, 0, 0.336498, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 57.869,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass_lod.mtl", "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0320797, 5.96046e-07, 1.70128e-07, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass_lod.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.389541, -0.0579334, 0.214371, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.99342, 0.70376, 0.9738, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass_lod.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.379016, -0.14652, 0.283523, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2192, 0.80895, 0.8899, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass_lod.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.407801, 0.102473, 0.247911, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.01168, -0.7483, 0.94026, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600_glass_lod.mtl", },
+									mesh = "::/vehicle/car/tatra_t600/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.378716, 0.146769, 0.281723, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.2189, -0.8092, 0.8917, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.52333, 0.630499, 0.336498, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.52333, -0.630499, 0.336498, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.17655, 0, 0.336498, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 57.869,
+				visibleTo = 173.607,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/tatra_t600/mat/tatra_t600.mtl", },
+							mesh = "::/vehicle/car/tatra_t600/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0320797, 5.96046e-07, 1.70128e-07, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 173.607,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1948,
+				yearTo = 1978,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.601961, 0.572635, 0.496913, },
+					},
+					{
+						{ 0.553856, 0.633333, 0.623564, },
+					},
+					{
+						{ 0.370065, 0.512898, 0.584314, },
+					},
+					{
+						{ 0.731373, 0.718962, 0.686917, },
+					},
+					{
+						{ 0.556863, 0.124577, 0.109189, },
+					},
+					{
+						{ 0.140761, 0.274163, 0.317647, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.30446, 0.835027, 1.51272, },
+				bbMin = { -2.2403, -0.835027, 0.00149775, },
+			},
+		},
+		version = 2,
+	}
+end

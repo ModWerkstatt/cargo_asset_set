@@ -1,0 +1,212 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 2.14456, 1.05133, 1.77451, },
+			bbMin = { -2.19087, -1.00136, -0.000336409, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.16771, 1.02635, 0.887421, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.023154, 0.0249856, 0.887084, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", "::/vehicle/car/pickup/mat/pickup_glass.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/pickup/mat/pickup_glass.mtl", },
+									mesh = "::/vehicle/car/pickup/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/pickup/mat/pickup_glass.mtl", },
+									mesh = "::/vehicle/car/pickup/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/pickup/mat/pickup_glass.mtl", },
+									mesh = "::/vehicle/car/pickup/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/pickup/mat/pickup_glass.mtl", },
+									mesh = "::/vehicle/car/pickup/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.37654, -0.702891, 0.317842, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.37654, 0.702891, 0.317842, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.20064, 0, 0.317842, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 64.907,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", "::/vehicle/car/pickup/mat/pickup_glass_lod.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/pickup/mat/pickup_glass_lod.mtl", },
+									mesh = "::/vehicle/car/pickup/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/pickup/mat/pickup_glass_lod.mtl", },
+									mesh = "::/vehicle/car/pickup/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.37654, -0.702891, 0.317842, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.37654, 0.702891, 0.317842, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.20064, 0, 0.317842, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 64.907,
+				visibleTo = 194.721,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/pickup/mat/pickup.mtl", },
+							mesh = "::/vehicle/car/pickup/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 194.721,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1955,
+				yearTo = 1985,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.552941, 0.539018, 0.503068, },
+					},
+					{
+						{ 0.385482, 0.592157, 0.566753, },
+					},
+					{
+						{ 0.512708, 0.57451, 0.488897, },
+					},
+					{
+						{ 0.623529, 0.329507, 0.111257, },
+					},
+					{
+						{ 0.678431, 0.188938, 0.179585, },
+					},
+					{
+						{ 0.163287, 0.280392, 0.174144, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.14456, 1.05133, 1.77451, },
+				bbMin = { -2.19087, -1.00136, -0.000336409, },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,350 @@
+function data()
+return {
+		boundingInfo = {
+			bbMax = { 2.32181, 1.13823, 1.78221, },
+			bbMin = { -2.29758, -1.13823, -0.000402838, },
+		},
+		collider = {
+			params = {
+				halfExtents = { 2.3097, 1.13823, 0.891304, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0121152, 0, 0.890902, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{
+				node = {
+					children = {
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", "::/vehicle/car/emissive/car_all_lights.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/brakelights_glass_lod0.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/w1_lod0.msh",
+									name = "w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.00106526, -0.00203424, -0.00465323, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/w1_brake_lod0.msh",
+							name = "w1_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.49, 0.685, 0.39, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/w2_lod0.msh",
+									name = "w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.00293474, -0.0289658, -0.00265323, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/w2_brake_lod0.msh",
+							name = "w2_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.494, -0.654, 0.388, 1, },
+						},
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21978, 0, 0.385347, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 70.7463,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", "::/vehicle/car/emissive/car_all_lights.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/headlights_glass_lod1.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/brakelights_glass_lod1.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_bck_lod1.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_lft_lod1.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_rgt_lod1.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/glass_frt_lod1.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							children = {
+								{
+									materials = { "::/vehicle/car/grand_cherokee/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/grand_cherokee/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.49107, 0.682966, 0.385347, 1, },
+						},
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.49107, -0.682966, 0.385347, 1, },
+						},
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.21978, 0, 0.385347, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 70.7463,
+				visibleTo = 212.239,
+			},
+			{
+				node = {
+					children = {
+						{
+							materials = { "::/vehicle/car/grand_cherokee/mat/body.mtl", },
+							mesh = "::/vehicle/car/grand_cherokee/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 212.239,
+				visibleTo = 1600,
+			},
+		},
+		metadata = {
+			availability = {
+				yearFrom = 2004,
+				yearTo = 2034,
+			},
+			categoryList = {
+				categories = {
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = {
+				configs = {
+					{
+						{ 0.445098, 0.283472, 0.237386, },
+					},
+					{
+						{ 0.125644, 0.200149, 0.337255, },
+					},
+					{
+						{ 0.712489, 0.711476, 0.715686, },
+					},
+					{
+						{ 0.201799, 0.317647, 0.240415, },
+					},
+					{
+						{ 0.556863, 0.124577, 0.109189, },
+					},
+					{
+						{ 0.133041, 0.153964, 0.160784, },
+					},
+				},
+			},
+			extent = {
+				bbMax = { 2.32181, 1.13823, 1.78221, },
+				bbMin = { -2.29758, -1.13823, -0.000402838, },
+			},
+		},
+		version = 2,
+	}
+end

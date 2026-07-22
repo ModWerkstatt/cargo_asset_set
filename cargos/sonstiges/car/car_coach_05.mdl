@@ -1,0 +1,204 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 4.29103, 0.944896, 2.18737, },
+			bbMin = { -1.4868, -0.944896, -0.0169195, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.88891, 0.944896, 1.10215, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/front_b1_lod0.msh",
+									name = "front_b1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/front_w1_lod0.msh",
+									name = "front_w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.5334, 1, },
+								},
+							},
+							name = "front_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.900629, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/back_body_lod0.msh",
+									name = "back_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.889035, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/back_w2_lod0.msh",
+									name = "back_w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.5334, 1, },
+								},
+							},
+							name = "back_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.889035, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 75.1115,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/front_b1_lod1.msh",
+									name = "front_b1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/front_w1_lod1.msh",
+									name = "front_w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.5334, 1, },
+								},
+							},
+							name = "front_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.900629, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/back_body_lod1.msh",
+									name = "back_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.889035, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/back_w2_lod1.msh",
+									name = "back_w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.5334, 1, },
+								},
+							},
+							name = "back_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.889035, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 75.1115,
+				visibleTo = 225.335,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/front_b1_lod2.msh",
+									name = "front_b1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "front_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.900629, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/coach_05/mat/coach_05.mtl", },
+									mesh = "::/vehicle/car/coach_05/msh/back_body_lod2.msh",
+									name = "back_body",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.889035, 0, 0, 1, },
+								},
+							},
+							name = "back_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.889035, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 225.335,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1905,
+				yearTo = 1925,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.658823, 0.376306, 0.223483, },
+						{ 0.737255, 0.258807, 0, },
+						{ 0.658823, 0.376306, 0.223483, },
+						{ 0.964671, 0.968627, 0.921146, },
+					},
+					{
+						{ 0.611765, 0.517732, 0.404244, },
+						{ 0.878431, 0.858875, 0.792311, },
+						{ 0.611765, 0.517732, 0.404244, },
+						{ 0.878431, 0.858875, 0.792311, },
+					},
+					{
+						{ 0.827451, 0.811632, 0.764175, },
+						{ 0.890196, 0.854883, 0.745321, },
+						{ 0.827451, 0.811632, 0.764175, },
+						{ 0.890196, 0.854883, 0.745321, },
+					},
+					{
+						{ 0.116724, 0.11614, 0.12549, },
+						{ 0.203922, 0.203922, 0.203922, },
+						{ 0.138884, 0.137947, 0.152941, },
+						{ 0.235294, 0.235294, 0.235294, },
+					},
+					{
+						{ 0.34902, 0.218372, 0.145083, },
+						{ 0.27451, 0.27451, 0.27451, },
+						{ 0.658823, 0.376306, 0.223483, },
+						{ 0.160784, 0.160784, 0.160784, },
+					},
+					{
+						{ 0.227743, 0.224114, 0.231373, },
+						{ 0.65098, 0.415678, 0.32549, },
+						{ 0.164829, 0.160938, 0.180392, },
+						{ 0.164829, 0.160938, 0.180392, },
+					},
+					{
+						{ 0.611765, 0.517732, 0.404244, },
+						{ 0.317647, 0.231322, 0.160692, },
+						{ 0.611765, 0.517732, 0.404244, },
+						{ 0.317647, 0.231322, 0.160692, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 4.77067, 0.944896, 1.77475, },
+				bbMin = { -1.4868, -0.944896, -1.78814e-07, },
+			},
+		},
+		version = 2,
+	}
+end

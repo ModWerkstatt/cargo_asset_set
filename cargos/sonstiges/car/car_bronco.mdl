@@ -1,0 +1,224 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.04, 4.52673, 3.57571, },
+			bbMin = { -2.24625, -4.52673, -3.87491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.24625, 1.13024, 0.948323, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.78388, 0, 1.57425, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12224, -0.743896, 1.58304, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.12224, 0.743896, 1.58304, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.623096, 0, 1.57872, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.626262, 0.0831879, 0.775967, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.712707, -0.855838, 0.76245, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.626262, -0.0831879, 0.775967, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.712707, 0.855838, 0.76245, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15912, 0, 0.428802, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.43114, 0.809981, 0.428802, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.43114, -0.809981, 0.428802, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 70.047,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", "::/vehicle/car/bronco/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.626262, 0.0831879, 0.775967, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.712707, -0.855838, 0.76245, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/bronco/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/bronco/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.626262, -0.0831879, 0.775967, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.712707, 0.855838, 0.76245, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.15912, 0, 0.428802, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.43114, 0.809981, 0.428802, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.43114, -0.809981, 0.428802, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 70.047,
+				visibleTo = 210.141,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/bronco/mat/body.mtl", },
+							mesh = "::/vehicle/car/bronco/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 210.141,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2022,
+				yearTo = 0,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.0851788, 0.205882, 0.11196, },
+					},
+					{
+						{ 0, 0, 0, },
+					},
+					{
+						{ 0.453925, 0.466728, 0.468627, },
+					},
+					{
+						{ 0.547059, 0.193995, 0.0933218, },
+					},
+					{
+						{ 0.223206, 0.233521, 0.241176, },
+					},
+					{
+						{ 0.372241, 0.450915, 0.460784, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.24625, 1.13024, 1.89665, },
+				bbMin = { -2.24625, -1.13024, 0, },
+			},
+		},
+		version = 2,
+	}
+end

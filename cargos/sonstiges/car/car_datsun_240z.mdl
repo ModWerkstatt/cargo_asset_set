@@ -1,0 +1,240 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.66014, 4.42672, 3.03637, },
+			bbMin = { -2.06041, -4.42673, -4.41425, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.04998, 0.827225, 0.627031, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, -1.01435, -0.640534, 0.997479, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0.0647261, 0, 1.05267, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, -1.01435, 0.640534, 0.997479, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, -1.39354, 0, 1.03434, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0.318297, -0.769911, 0.613274, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0.318297, 0.769911, 0.613274, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, -1.16734, 5.5002e-07, 0.295573, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/w1_lod0.msh",
+									name = "w1",
+									transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, -0.000660794, 0.000802508, 0.00157258, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/w1_brake_lod0.msh",
+							name = "w1_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.168, 0.584, 0.294, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/w2_lod0.msh",
+									name = "w2",
+									transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0.000339206, 0.00119725, -0.000427421, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/w2_brake_lod0.msh",
+							name = "w2_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.167, -0.586, 0.296, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 54.9435,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", "::/vehicle/car/datsun_240z/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0.318297, -0.769911, 0.613274, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/datsun_240z/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/datsun_240z/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0.318297, 0.769911, 0.613274, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, -1.16734, 5.5002e-07, 0.295573, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 1.16734, 0.584803, 0.295573, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 1.16734, -0.584803, 0.295573, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 54.9435,
+				visibleTo = 164.831,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/datsun_240z/mat/body.mtl", },
+							mesh = "::/vehicle/car/datsun_240z/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 164.831,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1978,
+				yearTo = 2008,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0, 0, 0, },
+					},
+					{
+						{ 0.876471, 0.876471, 0.876471, },
+					},
+					{
+						{ 0.692157, 0.157751, 0.103145, },
+					},
+					{
+						{ 0.254325, 0.51674, 0.576471, },
+					},
+					{
+						{ 0.794118, 0.603491, 0.0591695, },
+					},
+					{
+						{ 0.0935025, 0.156863, 0.0981885, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.03954, 0.827225, 1.25609, },
+				bbMin = { -2.06041, -0.827224, 0.00203338, },
+			},
+		},
+		version = 2,
+	}
+end

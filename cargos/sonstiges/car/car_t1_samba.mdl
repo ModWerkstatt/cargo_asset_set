@@ -1,0 +1,322 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.95299, 4.38673, 3.33442, },
+			bbMin = { -2.12897, -4.38672, -4.1162, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.13524, 0.945516, 1.02294, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.90147, 1.49012e-07, 1.5047, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_lft_1_lod0.msh",
+									name = "glass_lft_1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.438859, 0.747151, 1.50932, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_lft_2_lod0.msh",
+									name = "glass_lft_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.159398, 0.747151, 1.50932, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_bck_lft_lod0.msh",
+									name = "glass_bck_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.82778, 0.677385, 1.50759, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_lft_3_lod0.msh",
+									name = "glass_lft_3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.749984, 0.747151, 1.50932, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_lft_4_lod0.msh",
+									name = "glass_lft_4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.34193, 0.747151, 1.50932, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_bck_rgt_lod0.msh",
+									name = "glass_bck_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.82778, -0.677385, 1.50759, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_rgt_1_lod0.msh",
+									name = "glass_rgt_1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.749984, -0.74715, 1.50932, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_rgt_2_lod0.msh",
+									name = "glass_rgt_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.34193, -0.74715, 1.50932, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_frt_lft_lod0.msh",
+									name = "glass_frt_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.70591, 0.328466, 1.52161, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/glass_frt_rgt_lod0.msh",
+									name = "glass_frt_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.70591, -0.328465, 1.52161, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d3_rgt_glass_lod0.msh",
+									name = "d3_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.300843, 0.0940784, 0.551937, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d3_rgt_lod0.msh",
+							name = "d3_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.460241, -0.841229, 0.957379, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.301919, 0.0940784, 0.551937, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.734116, -0.841229, 0.957379, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.542057, 0.0339358, 0.599687, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.78336, -0.735502, 0.901885, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.542057, -0.0339356, 0.599687, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.78336, 0.735502, 0.901885, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.16572, 0.683891, 0.325223, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.16572, -0.68389, 0.325223, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23494, 0, 0.325223, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 64.6984,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", "::/vehicle/car/t1_samba/mat/vw_samba_glass_lod.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass_lod.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d3_rgt_glass_lod1.msh",
+									name = "d3_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.300843, 0.0940784, 0.551937, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d3_rgt_lod1.msh",
+							name = "d3_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.460241, -0.841229, 0.957379, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass_lod.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.301919, 0.0940784, 0.551937, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.734116, -0.841229, 0.957379, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass_lod.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.542057, 0.0339358, 0.599687, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.78336, -0.735502, 0.901885, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/t1_samba/mat/vw_samba_glass_lod.mtl", },
+									mesh = "::/vehicle/car/t1_samba/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.542057, -0.0339356, 0.599687, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.78336, 0.735502, 0.901885, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.16572, 0.683891, 0.325223, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.16572, -0.68389, 0.325223, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23494, 0, 0.325223, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 64.6984,
+				visibleTo = 194.095,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/t1_samba/mat/vw_samba_body.mtl", },
+							mesh = "::/vehicle/car/t1_samba/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 194.095,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1960,
+				yearTo = 1990,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.56346, 0.811765, 0.673904, },
+					},
+					{
+						{ 0.0725529, 0.239564, 0.327451, },
+					},
+					{
+						{ 0.296078, 0.0824375, 0.173235, },
+					},
+					{
+						{ 0.368627, 0.685417, 0.8, },
+					},
+					{
+						{ 0.907843, 0.644602, 0.0569627, },
+					},
+					{
+						{ 0.611118, 0.574587, 0.686275, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.14151, 0.945516, 2.04901, },
+				bbMin = { -2.12897, -0.945515, 0.00312948, },
+			},
+		},
+		version = 2,
+	}
+end

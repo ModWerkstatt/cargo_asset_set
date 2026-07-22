@@ -1,0 +1,358 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.16, 4.45673, 3.16571, },
+			bbMin = { -2.40051, -4.45673, -4.28491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.40473, 1.02805, 0.728689, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_top_lod0.msh",
+									name = "glass_top",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/brakelights_glass_lod0.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/blinklights_glass_lod0.msh",
+									name = "blinklights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.42376, 0.786564, 0.330006, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.42376, -0.786564, 0.330006, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39028, 0, 0.330006, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 66.7181,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_frt_lod1.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_top_lod1.msh",
+									name = "glass_top",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_lft_lod1.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_rgt_lod1.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/glass_bck_lod1.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/headlights_glass_lod1.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/brakelights_glass_lod1.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/blinklights_glass_lod1.msh",
+									name = "blinklights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/508_sw/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/508_sw/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.42376, 0.786564, 0.330006, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.42376, -0.880039, 0.330006, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39028, 0, 0.330006, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 66.7181,
+				visibleTo = 200.154,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/508_sw/mat/body.mtl", },
+							mesh = "::/vehicle/car/508_sw/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200.154,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2011,
+				yearTo = 2041,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.807843, 0.806517, 0.803091, },
+					},
+					{
+						{ 0.692138, 0.730865, 0.743137, },
+					},
+					{
+						{ 0.515556, 0.527407, 0.533333, },
+					},
+					{
+						{ 0.334294, 0.367103, 0.460784, },
+					},
+					{
+						{ 0.556863, 0.124577, 0.109189, },
+					},
+					{
+						{ 0.638758, 0.654268, 0.660784, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.40894, 1.02805, 1.45738, },
+				bbMin = { -2.40051, -1.02805, 0, },
+			},
+		},
+		version = 2,
+	}
+end

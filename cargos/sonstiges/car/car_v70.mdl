@@ -1,0 +1,272 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.88645, 4.3447, 3.10852, },
+			bbMin = { -2.31388, -4.56876, -4.3421, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.23186, 0.992322, 0.690856, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.112009, -0.112009, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/blinklights_glass_lod0.msh",
+									name = "blinklights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.824111, -0.112009, 0.412312, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.61425, 0.550817, 1.09161, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.61425, -0.774836, 1.09161, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.643723, -0.112009, 1.03929, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.15436, -0.112009, 1.05483, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/backlights_glass_lod0.msh",
+									name = "backlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.11678, -0.11201, 0.944032, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.85254, -0.112009, 0.575299, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/backlights_glass2_lod0.msh",
+									name = "backlights_glass2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.09616, -0.11201, 1.27521, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.758239, 0.729669, 0.539948, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.758239, -0.953687, 0.539948, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.272494, 0.735683, 0.585236, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/v70/mat/volvo_glass.mtl", },
+									mesh = "::/vehicle/car/v70/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.272494, -0.959702, 0.585236, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.27244, 0.665832, 0.282508, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.27244, -0.889851, 0.282508, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.34786, -0.11201, 0.282508, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 63.4863,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", "::/vehicle/car/v70/mat/volvo_glass_lod.mtl", },
+							mesh = "::/vehicle/car/v70/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.112009, -0.112009, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.758239, 0.729669, 0.539948, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.758239, -0.953687, 0.539948, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.272494, 0.735683, 0.585236, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.272494, -0.959702, 0.585236, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.27244, 0.665832, 0.282508, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.27244, -0.889851, 0.282508, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.34786, -0.11201, 0.282508, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 63.4863,
+				visibleTo = 190.459,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/v70/mat/volvo.mtl", },
+							mesh = "::/vehicle/car/v70/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.61425, 0.550817, 1.09161, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 190.459,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1999,
+				yearTo = 2029,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE", },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.16955, 0.181661, 0.205882, },
+					},
+					{
+						{ 0.0682468, 0.0834412, 0.119608, },
+					},
+					{
+						{ 0.258824, 0.258824, 0.258824, },
+					},
+					{
+						{ 0.243137, 0.0999594, 0.0819992, },
+					},
+					{
+						{ 0.333045, 0.417472, 0.452941, },
+					},
+					{
+						{ 0.0685736, 0.0960785, 0.0833575, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.14983, 0.880313, 1.36697, },
+				bbMin = { -2.31388, -1.10433, -0.0147433, },
+			},
+		},
+		version = 2,
+	}
+end

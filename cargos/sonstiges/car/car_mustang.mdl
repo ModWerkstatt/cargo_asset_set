@@ -1,0 +1,248 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.02, 3.05571, 4.53673, },
+			bbMin = { -2.35422, -5.43491, -3.17673, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.32526, 0.911425, 0.737939, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0289538, 0, 0.737365, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/blinkers_rgt_glass_lod0.msh",
+									name = "blinkers_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.0488, 1.0488, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.12036, 1.12036, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/brakelights_glass_lod0.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/blinkers_lft_glass_lod0.msh",
+									name = "blinkers_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.217232, -1.32399, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.217232, 1.32399, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0966516, 0.698765, 1.03539, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.32399, -0.217232, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.39539, 0.745662, 0.314291, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.39539, -0.745662, 0.314291, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.31534, 0, 0.314291, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 61.3423,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang_glass_lod.mtl", "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass_lod.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.217232, -1.32399, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, -0.217232, 1.32399, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/mustang/mat/mustang_glass_lod.mtl", },
+									mesh = "::/vehicle/car/mustang/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.0966516, 0.698765, 1.03539, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1.32399, -0.217232, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.39539, 0.745662, 0.314291, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.39539, -0.745662, 0.314291, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.31534, 0, 0.314291, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 61.3423,
+				visibleTo = 184.027,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/mustang/mat/mustang.mtl", },
+							mesh = "::/vehicle/car/mustang/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 184.027,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1968,
+				yearTo = 1998,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.137624, 0.257852, 0.447059, },
+					},
+					{
+						{ 0.118501, 0.12565, 0.129412, },
+					},
+					{
+						{ 0.833333, 0.629902, 0.0490196, },
+					},
+					{
+						{ 0.672549, 0.671384, 0.651449, },
+					},
+					{
+						{ 0.328909, 0.329412, 0.327474, },
+					},
+					{
+						{ 0.654902, 0.384338, 0.151526, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.29631, 0.911425, 1.4753, },
+				bbMin = { -2.35422, -0.911424, -0.000573993, },
+			},
+		},
+		version = 2,
+	}
+end

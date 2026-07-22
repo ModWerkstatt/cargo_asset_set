@@ -1,0 +1,224 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.60261, 4.23673, 3.47484, },
+			bbMin = { -1.94267, -4.20673, -4.00414, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.92206, 0.901774, 0.797556, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.39807, 3.3873e-06, 1.22667, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.320642, 0, 1.24373, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.00799, 0.655772, 1.16897, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.00799, -0.655772, 1.16897, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, -1.62921e-07, 0, 0, 0, -2.8213e-07, -1, 0, 1.62921e-07, 1, -2.8213e-07, 0, -0.489327, -0.0858221, 0.607902, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0, 0, 0, 1, 0, 0.446222, 0.703773, 0.641096, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.489327, 0.0858222, 0.607902, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.446222, -0.703774, 0.641096, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1031, 0.011395, 0.326565, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31857, -0.706395, 0.326565, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31857, 0.706396, 0.326565, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 57.2625,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", "::/vehicle/car/juvaquatra/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, -1.62921e-07, 0, 0, 0, -2.8213e-07, -1, 0, 1.62921e-07, 1, -2.8213e-07, 0, -0.489327, -0.0858221, 0.607902, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, -1.62921e-07, 0, 0, 1.62921e-07, 1, 0, 0, 0, 0, 1, 0, 0.446222, 0.703773, 0.641096, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/juvaquatra/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/juvaquatra/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.489327, 0.0858222, 0.607902, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.446222, -0.703774, 0.641096, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1031, 0.011395, 0.326565, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31857, -0.706395, 0.326565, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.31857, 0.706396, 0.326565, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 57.2625,
+				visibleTo = 171.788,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/juvaquatra/mat/body.mtl", },
+							mesh = "::/vehicle/car/juvaquatra/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 171.788,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1947,
+				yearTo = 1977,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.119608, 0.115855, 0.115855, },
+					},
+					{
+						{ 0.367847, 0.431868, 0.472549, },
+					},
+					{
+						{ 0.360784, 0.145021, 0.145021, },
+					},
+					{
+						{ 0.568627, 0.548095, 0.489466, },
+					},
+					{
+						{ 0.282907, 0.320789, 0.329412, },
+					},
+					{
+						{ 0.321569, 0.283561, 0.228251, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 1.90145, 0.901774, 1.58818, },
+				bbMin = { -1.94267, -0.901774, -0.00693214, },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,0 +1,332 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.72, 4.48673, 3.24571, },
+			bbMin = { -2.02574, -4.48673, -4.20491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.01556, 0.956081, 0.807716, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/blinklights_lft_glass_lod0.msh",
+									name = "blinklights_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/blinklights_rgt_glass_lod0.msh",
+									name = "blinklights_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/glass_rgt2_lod0.msh",
+									name = "glass_rgt2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/glass_rgt1_lod0.msh",
+									name = "glass_rgt1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/glass_lft1_lod0.msh",
+									name = "glass_lft1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/glass_lft2_lod0.msh",
+									name = "glass_lft2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/brakelights_glass_lod0.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/w1_lod0.msh",
+									name = "w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.000234032, 0.000221675, 8.06088e-05, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/front_w1_brake_lod0.msh",
+							name = "front_w1_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1625, 0.7215, 0.313, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/w2_lod0.msh",
+									name = "w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.000234032, -0.000245629, 8.07281e-05, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/front_w2_brake_lod0.msh",
+							name = "front_w2_brake",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1625, -0.721476, 0.313, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3073, 0, 0.313081, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 60.3556,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", "::/vehicle/car/fiesta/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiesta/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/fiesta/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.16273, 0.721722, 0.313081, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.16273, -0.721722, 0.313081, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3073, 0, 0.313081, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 60.3556,
+				visibleTo = 181.067,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/fiesta/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiesta/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 181.067,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2022,
+				yearTo = 0,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.382353, 0.377242, 0.370358, },
+					},
+					{
+						{ 0.92549, 0.196731, 0.0308497, },
+					},
+					{
+						{ 0.585424, 0.735294, 0.423875, },
+					},
+					{
+						{ 0.947059, 0.634158, 0.321257, },
+					},
+					{
+						{ 0.811765, 0.806565, 0.786298, },
+					},
+					{
+						{ 0.120173, 0.131577, 0.135294, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.00538, 0.956081, 1.6136, },
+				bbMin = { -2.02574, -0.956081, -0.00183415, },
+			},
+		},
+		version = 2,
+	}
+end

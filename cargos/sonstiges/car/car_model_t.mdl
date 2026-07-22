@@ -1,0 +1,186 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.78, 4.26673, 3.45571, },
+			bbMin = { -2.06041, -4.26673, -3.99491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.06041, 0.838206, 0.952236, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/model_t/mat/model_t_glass.mtl", },
+									mesh = "::/vehicle/car/model_t/msh/glass2_frt_lod0.msh",
+									name = "glass2_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.622354, 0, 1.34587, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/model_t/mat/model_t_glass.mtl", },
+									mesh = "::/vehicle/car/model_t/msh/glass1_frt_lod0.msh",
+									name = "glass1_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.586432, 0, 1.58871, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.585254, -0.446046, 1.0669, 1, },
+						},
+						{
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.585254, 0.446046, 1.0669, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8922, 0, 0.3945, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5595, 0.674, 0.3885, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5595, -0.661, 0.3905, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 60.7421,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t_glass_lod.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/headlights_glass_lod1.msh",
+							name = "headlights_glass",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", "::/vehicle/car/model_t/mat/model_t_glass_lod.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/ford_model_t_roadster_lod1.msh",
+							name = "ford_model_t_roadster",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/door_02_lod1.msh",
+							name = "door_02",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.585254, -0.446046, 1.0669, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/door_01_lod1.msh",
+							name = "door_01",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.585254, 0.446046, 1.0669, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.8922, 0, 0.3945, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5595, 0.674, 0.3885, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5595, -0.661, 0.3905, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 60.7421,
+				visibleTo = 182.226,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/model_t/mat/model_t.mtl", },
+							mesh = "::/vehicle/car/model_t/msh/ford_model_t_roadster_lod2.msh",
+							name = "ford_model_t_roadster",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 182.226,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1915,
+				yearTo = 1940,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0, 0, 0, },
+					},
+					{
+						{ 0.796078, 0.110827, 0.110827, },
+					},
+					{
+						{ 0.488235, 0.401825, 0.377186, },
+					},
+					{
+						{ 0.74902, 0.730475, 0.716709, },
+					},
+					{
+						{ 0.350327, 0.443911, 0.666667, },
+					},
+					{
+						{ 0.181523, 0.505882, 0.445741, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.06041, 0.838206, 1.90653, },
+				bbMin = { -2.06041, -0.838206, 0.00206172, },
+			},
+		},
+		version = 2,
+	}
+end

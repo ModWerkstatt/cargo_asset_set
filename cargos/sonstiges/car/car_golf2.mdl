@@ -1,0 +1,268 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.9, 4.41673, 3.17571, },
+			bbMin = { -2.02106, -4.41673, -4.27491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.02061, 0.920695, 0.722601, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.68469, 2.86484e-05, 1.15667, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.641974, 0, 1.07436, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.639428, -0.129726, 0.454609, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.709109, 0.762506, 0.707567, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.617428, 0.141726, 0.452609, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.687109, -0.774506, 0.709567, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d2_lft_glass_lod0.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725426, 0.631632, 1.16839, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d2_lft_lod0.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d2_rgt_glass_lod0.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725427, -0.631632, 1.16839, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d2_rgt_lod0.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.30311, 0, 0.284245, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.19614, 0.73118, 0.284245, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.19614, -0.73118, 0.284245, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 58.6814,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", "::/vehicle/car/golf2/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.639428, -0.129726, 0.454609, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.709109, 0.762506, 0.707567, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.617428, 0.141726, 0.452609, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.687109, -0.774506, 0.709567, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d2_lft_glass_lod1.msh",
+									name = "d2_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725426, 0.631632, 1.16839, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d2_lft_lod1.msh",
+							name = "d2_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/golf2/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/golf2/msh/d2_rgt_glass_lod1.msh",
+									name = "d2_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.725427, -0.631632, 1.16839, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/d2_rgt_lod1.msh",
+							name = "d2_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.30311, 0, 0.284245, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.19614, 0.73118, 0.284245, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.19614, -0.73118, 0.284245, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 58.6814,
+				visibleTo = 176.044,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/golf2/mat/body.mtl", },
+							mesh = "::/vehicle/car/golf2/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 176.044,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1991,
+				yearTo = 2021,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0, 0, 0, },
+					},
+					{
+						{ 0.379099, 0.547059, 0.114775, },
+					},
+					{
+						{ 0.517647, 0.489947, 0.392803, },
+					},
+					{
+						{ 0.432084, 0.469787, 0.484314, },
+					},
+					{
+						{ 0.670588, 0.395533, 0.0249827, },
+					},
+					{
+						{ 0.151972, 0.278453, 0.358824, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.02017, 0.920695, 1.43602, },
+				bbMin = { -2.02106, -0.920694, -0.00918394, },
+			},
+		},
+		version = 2,
+	}
+end
