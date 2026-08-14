@@ -10,6 +10,13 @@ return {
 						lightMask = 2,
 					},
 				},
+			},		
+			albedo_scale = { 
+				fragmentProperties = {
+					{ 
+						albedoScale = { 1, 1, 1, },
+					},
+				},
 			},
 			map_albedo = { 
 				fragmentSamplers = { 

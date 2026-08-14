@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.099999904632568359375, 1.21000003814697265625, 2.900000095367431640625, },
-			bbMin = { -6.099999904632568359375, -1.21000003814697265625, 0, },
+			bbMax = { 6.8644008636474609375, 1.2750031948089599609375, 3.93041896820068359375, },
+			bbMin = { -7.02340984344482421875, -1.2750027179718017578125, -0.0355992577970027923583984375, },
 		},
 		collider = { 
 			params = { 
@@ -63,22 +63,7 @@ return {
 		},
 		metadata = { 
 			categoryList = { 
-				categories = { 
-				"::/cargos/beverages/beverages.cargo#TRAILER45FT_ML", 
-				"::/cargos/books/books.cargo#TRAILER45FT_ML", 
-				"::/cargos/bricks/bricks.cargo#TRAILER45FT_ML", 
-				"::/cargos/clothes/clothes.cargo#TRAILER45FT_ML", 
-				"::/cargos/fabric/fabric.cargo#TRAILER45FT_ML", 
-				"::/cargos/fertilizer/fertilizer.cargo#TRAILER45FT_ML", 
-				"::/cargos/furniture/furniture.cargo#TRAILER45FT_ML", 
-				"::/cargos/glass/glass.cargo#TRAILER45FT_ML", 
-				"::/cargos/machines/machines.cargo#TRAILER45FT_ML", 
-				"::/cargos/paper/paper.cargo#TRAILER45FT_ML", 
-				"::/cargos/plastic/plastic.cargo#TRAILER45FT_ML", 
-				"::/cargos/tinned_food/tinned_food.cargo#TRAILER45FT_ML", 
-				"::/cargos/tires/tires.cargo#TRAILER45FT_ML", 
-				"::/cargos/tools/tools.cargo#TRAILER45FT_ML", 
-				"::/cargos/wool/wool.cargo#TRAILER45FT_ML", },
+				categories = { "::/cargos/beverages/beverages.cargo#TRAILER45FT_ML", "::/cargos/books/books.cargo#TRAILER45FT_ML", "::/cargos/bricks/bricks.cargo#TRAILER45FT_ML", "::/cargos/clothes/clothes.cargo#TRAILER45FT_ML", "::/cargos/fabric/fabric.cargo#TRAILER45FT_ML", "::/cargos/fertilizer/fertilizer.cargo#TRAILER45FT_ML", "::/cargos/furniture/furniture.cargo#TRAILER45FT_ML", "::/cargos/glass/glass.cargo#TRAILER45FT_ML", "::/cargos/machines/machines.cargo#TRAILER45FT_ML", "::/cargos/paper/paper.cargo#TRAILER45FT_ML", "::/cargos/plastic/plastic.cargo#TRAILER45FT_ML", "::/cargos/tinned_food/tinned_food.cargo#TRAILER45FT_ML", "::/cargos/tires/tires.cargo#TRAILER45FT_ML", "::/cargos/tools/tools.cargo#TRAILER45FT_ML", "::/cargos/wool/wool.cargo#TRAILER45FT_ML", },
 			},
 		},
 		version = 2,

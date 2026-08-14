@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.099999904632568359375, 1.21000003814697265625, 2.900000095367431640625, },
-			bbMin = { -6.099999904632568359375, -1.21000003814697265625, 0, },
+			bbMax = { 4.538146495819091796875, 1.211793422698974609375, 2.6290729045867919921875, },
+			bbMin = { -4.551954746246337890625, -1.210506439208984375, 0.000421345233917236328125, },
 		},
 		collider = { 
 			params = { 
@@ -61,29 +61,13 @@ return {
 				visibleTo = 1500,
 			},
 		},
-		metadata = { 	
+		metadata = { 
 			availability = { 
 				yearFrom = 1979,
 				yearTo = 0,
-			}, 
+			},
 			categoryList = { 
-				categories = { 
-				"::/cargos/beverages/beverages.cargo#CONT30FT", 
-				"::/cargos/books/books.cargo#CONT30FT", 
-				"::/cargos/bricks/bricks.cargo#CONT30FT", 
-				"::/cargos/clothes/clothes.cargo#CONT30FT", 
-				"::/cargos/fabric/fabric.cargo#CONT30FT", 
-				"::/cargos/fertilizer/fertilizer.cargo#CONT30FT", 
-				"::/cargos/furniture/furniture.cargo#CONT30FT", 
-				"::/cargos/glass/glass.cargo#CONT30FT", 
-				"::/cargos/machines/machines.cargo#CONT30FT", 
-				"::/cargos/paper/paper.cargo#CONT30FT", 
-				"::/cargos/plastic/plastic.cargo#CONT30FT", 
-				"::/cargos/tinned_food/tinned_food.cargo#CONT30FT", 
-				"::/cargos/tires/tires.cargo#CONT30FT", 
-				"::/cargos/tools/tools.cargo#CONT30FT", 
-				"::/cargos/wool/wool.cargo#CONT30FT",
-				"::/cargos/vehicles/vehicles.cargo#CONT30FT", },
+				categories = { "::/cargos/beverages/beverages.cargo#CONT30FT", "::/cargos/books/books.cargo#CONT30FT", "::/cargos/bricks/bricks.cargo#CONT30FT", "::/cargos/clothes/clothes.cargo#CONT30FT", "::/cargos/fabric/fabric.cargo#CONT30FT", "::/cargos/fertilizer/fertilizer.cargo#CONT30FT", "::/cargos/furniture/furniture.cargo#CONT30FT", "::/cargos/glass/glass.cargo#CONT30FT", "::/cargos/machines/machines.cargo#CONT30FT", "::/cargos/paper/paper.cargo#CONT30FT", "::/cargos/plastic/plastic.cargo#CONT30FT", "::/cargos/tinned_food/tinned_food.cargo#CONT30FT", "::/cargos/tires/tires.cargo#CONT30FT", "::/cargos/tools/tools.cargo#CONT30FT", "::/cargos/wool/wool.cargo#CONT30FT", "::/cargos/vehicles/vehicles.cargo#CONT30FT", },
 			},
 		},
 		version = 2,

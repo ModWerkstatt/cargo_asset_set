@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.099999904632568359375, 1.21000003814697265625, 2.900000095367431640625, },
-			bbMin = { -6.099999904632568359375, -1.21000003814697265625, 0, },
+			bbMax = { 6.11795330047607421875, 1.2258546352386474609375, 2.599841594696044921875, },
+			bbMin = { -6.083766937255859375, -1.225854396820068359375, 0.0004213154315948486328125, },
 		},
 		collider = { 
 			params = { 
@@ -67,13 +67,7 @@ return {
 				yearTo = 0,
 			},
 			categoryList = { 
-				categories = { 
-				"::/cargos/bricks/bricks.cargo#CONT40FT", 
-				"::/cargos/machines/machines.cargo#CONT40FT", 
-				"::/cargos/tires/tires.cargo#CONT40FT", 
-				"::/cargos/planks/planks.cargo#CONT40FT", 
-				"::/cargos/steel/steel.cargo#CONT40FT", 
-				"::/cargos/vehicles/vehicles.cargo#CONT40FT", },
+				categories = { "::/cargos/bricks/bricks.cargo#CONT40FT", "::/cargos/machines/machines.cargo#CONT40FT", "::/cargos/tires/tires.cargo#CONT40FT", "::/cargos/planks/planks.cargo#CONT40FT", "::/cargos/steel/steel.cargo#CONT40FT", "::/cargos/vehicles/vehicles.cargo#CONT40FT", },
 			},
 		},
 		version = 2,

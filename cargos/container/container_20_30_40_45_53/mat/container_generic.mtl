@@ -6,7 +6,7 @@ return {
 			albedo_scale = { 
 				fragmentProperties = {
 					{ 
-						albedoScale = { 0.995999991893768310546875, 1, 1.0039999485015869140625, },
+						albedoScale = { 1, 1, 0.1, },
 					},
 				},
 			},

@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 0.819999992847442626953125, 0.61000001430511474609375, 0.819999992847442626953125, },
-			bbMin = { -0.819999992847442626953125, -0.61000001430511474609375, -0.819999992847442626953125, },
+			bbMax = { 0.830170094966888427734375, 0.4384869635105133056640625, 1.6603400707244873046875, },
+			bbMin = { -0.830170094966888427734375, -0.4384869635105133056640625, 0, },
 		},
 		collider = { 
 			params = { 
@@ -47,9 +47,7 @@ return {
 		},
 		metadata = { 
 			categoryList = { 
-				categories = { 
-				"::/cargos/sheet_metal/sheet_metal.cargo#COIL" 
-				},
+				categories = { "::/cargos/sheet_metal/sheet_metal.cargo#COIL", },
 			},
 		},
 		version = 2,

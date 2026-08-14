@@ -1,8 +1,8 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 6.900000095367431640625, 1.21000003814697265625, 4, },
-			bbMin = { -6.900000095367431640625, -1.21000003814697265625, 0, },
+			bbMax = { 6.846754550933837890625, 1.261566638946533203125, 3.8999993801116943359375, },
+			bbMin = { -6.931989192962646484375, -1.27499711513519287109375, -0.020378507673740386962890625, },
 		},
 		collider = { 
 			params = { 
@@ -99,22 +99,7 @@ return {
 		},
 		metadata = { 
 			categoryList = { 
-				categories = { 
-				"::/cargos/beverages/beverages.cargo#TRAILER45FT", 
-				"::/cargos/books/books.cargo#TRAILER45FT", 
-				"::/cargos/bricks/bricks.cargo#TRAILER45FT", 
-				"::/cargos/clothes/clothes.cargo#TRAILER45FT", 
-				"::/cargos/fabric/fabric.cargo#TRAILER45FT", 
-				"::/cargos/fertilizer/fertilizer.cargo#TRAILER45FT", 
-				"::/cargos/furniture/furniture.cargo#TRAILER45FT", 
-				"::/cargos/glass/glass.cargo#TRAILER45FT", 
-				"::/cargos/machines/machines.cargo#TRAILER45FT", 
-				"::/cargos/paper/paper.cargo#TRAILER45FT", 
-				"::/cargos/plastic/plastic.cargo#TRAILER45FT", 
-				"::/cargos/tinned_food/tinned_food.cargo#TRAILER45FT", 
-				"::/cargos/tires/tires.cargo#TRAILER45FT", 
-				"::/cargos/tools/tools.cargo#TRAILER45FT", 
-				"::/cargos/wool/wool.cargo#TRAILER45FT", },
+				categories = { "::/cargos/beverages/beverages.cargo#TRAILER45FT", "::/cargos/books/books.cargo#TRAILER45FT", "::/cargos/bricks/bricks.cargo#TRAILER45FT", "::/cargos/clothes/clothes.cargo#TRAILER45FT", "::/cargos/fabric/fabric.cargo#TRAILER45FT", "::/cargos/fertilizer/fertilizer.cargo#TRAILER45FT", "::/cargos/furniture/furniture.cargo#TRAILER45FT", "::/cargos/glass/glass.cargo#TRAILER45FT", "::/cargos/machines/machines.cargo#TRAILER45FT", "::/cargos/paper/paper.cargo#TRAILER45FT", "::/cargos/plastic/plastic.cargo#TRAILER45FT", "::/cargos/tinned_food/tinned_food.cargo#TRAILER45FT", "::/cargos/tires/tires.cargo#TRAILER45FT", "::/cargos/tools/tools.cargo#TRAILER45FT", "::/cargos/wool/wool.cargo#TRAILER45FT", },
 			},
 		},
 		version = 2,
