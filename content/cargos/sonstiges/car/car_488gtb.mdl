@@ -1,0 +1,252 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.857, 4.55673, 3.14241, },
+			bbMin = { -2.26568, -4.55673, -4.30821, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 2.26612, 1.1259, 0.598648, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/w1_lod0.msh",
+									name = "w1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.000186095, -0.000398036, -6.62443e-05, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/w1_brakes_lod0.msh",
+							name = "w1_brakes",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1581, 0.884, 0.3472, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/w2_lod0.msh",
+									name = "w2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.000286095, 0.000398573, -0.000366244, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/w2_brakes_lod0.msh",
+							name = "w2_brakes",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.158, -0.884, 0.3475, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", "mat/car_all_lights.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/brakelights_glass_lod0.msh",
+									name = "brakelights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.02885, 0.000360005, 0.758834, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.611289, 0.667933, 0.976546, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.611289, -0.667933, 0.976546, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.23705, -2.79832e-07, 0.983072, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/headlights_glass_lod0.msh",
+									name = "headlights_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.82739, 0, 0.656434, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.536532, -2.0969e-07, 1.00718, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.732156, -0.168138, 0.30719, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.734021, 0.863685, 0.647087, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.732156, 0.168137, 0.30719, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.734021, -0.863686, 0.647087, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48376, 0, 0.347134, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 68.9237,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", "::/vehicle/car/488gtb/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.732156, -0.168138, 0.30719, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.734021, 0.863685, 0.647087, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/488gtb/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/488gtb/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.732156, 0.168137, 0.30719, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.734021, -0.863686, 0.647087, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15829, 0.883602, 0.347134, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.15829, -0.883601, 0.347134, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.48376, 0, 0.347134, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 68.9237,
+				visibleTo = 206.771,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/488gtb/mat/body.mtl", },
+							mesh = "::/vehicle/car/488gtb/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 206.771,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2005,
+				yearTo = 0,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE" },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.95098, 0.764055, 0.0354287, },
+					},
+					{
+						{ 0.645098, 0.2427, 0.0240331, },
+					},
+					{
+						{ 0.120381, 0.132937, 0.139216, },
+					},
+					{
+						{ 0.735294, 0.735294, 0.735294, },
+					},
+					{
+						{ 0.213726, 0.0507074, 0.0507074, },
+					},
+					{
+						{ 0.228174, 0.274949, 0.290196, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 2.26656, 1.1259, 1.19891, },
+				bbMin = { -2.26568, -1.1259, 0.00160974, },
+			},
+		},
+		version = 2,
+	}
+end

@@ -1,10 +1,27 @@
 {
-    "authors": [
-        {
-            "name": "Teamwork",
-            "role": "CREATOR"
-        } 
-    ],
-    "name": "Container as Cargo - Baseset",
-    "url": ""
+"name": "Cargo - Baseset",
+"summary": "This mod installs the basic set for cargo formats. It includes the appropriate cargo/containers for all formats.",
+"description": "",
+"localization" : {
+"en": {
+"name": "Cargo - Baseset",
+"summary": "This mod installs the basic set for cargo formats. It includes the appropriate cargo/containers for all formats.",
+"description": ""
+},
+"de": {
+"name": "Frachtarten - Basisset",
+"summary": "Dieser Mod installiert das Basisset für Cargoformate. Es sind für sämtliche Formate die passenden Frachten/Container enthalten.",
+"description": ""
+}
+},
+"authors": [
+{
+"name": "MaikC, Kaleut1988, Nando, jay_, br-147",
+"role": "CREATOR"
+}
+],
+"tags": [
+ "Other Asset"
+],
+"url": ""
 }

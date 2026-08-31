@@ -1,0 +1,236 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.43, 4.30673, 3.16571, },
+			bbMin = { -1.50331, -4.27673, -4.28491, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 1.48168, 0.682446, 0.669306, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/car_all_lights.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/backlights_lod0.msh",
+							name = "backlights",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", "::/vehicle/car/fiat500/mat/glass.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/glass_bck_lod0.msh",
+									name = "glass_bck",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.914961, 3.25068e-07, 1.09836, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/glass_lft_lod0.msh",
+									name = "glass_lft",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.538738, 0.513061, 0.996968, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/glass_rgt_lod0.msh",
+									name = "glass_rgt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.538738, -0.513061, 0.996968, 1, },
+								},
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/glass_frt_lod0.msh",
+									name = "glass_frt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.558355, 3.02758e-07, 1.06487, 1, },
+								},
+							},
+							name = "glass_grp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/d1_lft_glass_lod0.msh",
+									name = "d1_lft_glass",
+									transf = { 0.0001, 0, 0, 0, 0, -1.70716e-05, 9.8532e-05, 0, 0, -9.8532e-05, -1.70716e-05, 0, 0.378571, -0.158898, 0.595656, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/d1_lft_lod0.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.274096, 0.67321, 0.421003, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/d1_rgt_glass_lod0.msh",
+									name = "d1_rgt_glass",
+									transf = { 0.0001, 0, 0, 0, 0, 1.6912e-05, 9.85595e-05, 0, 0, -9.85595e-05, 1.6912e-05, 0, 0.378571, 0.159531, 0.595656, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/d1_rgt_lod0.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.274096, -0.67321, 0.421004, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/axle_lod0.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.87404, 0.00306206, 0.27095, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/w1_lod0.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.981141, -0.566851, 0.26595, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/w2_lod0.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.98114, 0.563062, 0.26595, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 43.8565,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", "::/vehicle/car/fiat500/mat/glass_lod.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.60887, 1, },
+						},
+						{ 
+							materials = { "mat/car_all_lights.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/backlights_lod1.msh",
+							name = "backlights",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/d1_lft_glass_lod1.msh",
+									name = "d1_lft_glass",
+									transf = { 0.0001, 0, 0, 0, 0, -1.70716e-05, 9.8532e-05, 0, 0, -9.8532e-05, -1.70716e-05, 0, 0.378571, -0.158898, 0.595656, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/d1_lft_lod1.msh",
+							name = "d1_lft",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.274096, 0.67321, 0.421003, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "::/vehicle/car/fiat500/mat/glass_lod.mtl", },
+									mesh = "::/vehicle/car/fiat500/msh/d1_rgt_glass_lod1.msh",
+									name = "d1_rgt_glass",
+									transf = { 0.0001, 0, 0, 0, 0, 1.6912e-05, 9.85595e-05, 0, 0, -9.85595e-05, 1.6912e-05, 0, 0.378571, 0.159531, 0.595656, 1, },
+								},
+							},
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/d1_rgt_lod1.msh",
+							name = "d1_rgt",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.274096, -0.67321, 0.421004, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/axle_lod1.msh",
+							name = "axle",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.87404, 0.00306206, 0.27095, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/w1_lod1.msh",
+							name = "w1",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.981141, -0.566851, 0.26595, 1, },
+						},
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/w2_lod1.msh",
+							name = "w2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.98114, 0.563062, 0.26595, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 43.8565,
+				visibleTo = 131.57,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "::/vehicle/car/fiat500/mat/body.mtl", },
+							mesh = "::/vehicle/car/fiat500/msh/body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2.60887, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 131.57,
+				visibleTo = 1600,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1963,
+				yearTo = 0,
+			},
+			categoryList = { 
+				categories = { 
+				"::/cargos/vehicles/vehicles.cargo#CAR_EUROPE", },
+			},
+			colorConfig = { 
+				configs = {
+					{
+						{ 0.57451, 0.505104, 0.0371742, },
+					},
+					{
+						{ 0.424537, 0.537255, 0.466336, },
+					},
+					{
+						{ 0.678431, 0.664347, 0.6199, },
+					},
+					{
+						{ 0.210023, 0.250813, 0.256863, },
+					},
+					{
+						{ 0.52549, 0.18375, 0.115402, },
+					},
+					{
+						{ 0.170646, 0.323529, 0.283875, },
+					},
+				},
+			},
+			extent = { 
+				bbMax = { 1.46006, 0.682446, 1.34245, },
+				bbMin = { -1.50331, -0.682446, 0.00383553, },
+			},
+		},
+		version = 2,
+	}
+end
